@@ -1,4 +1,4 @@
-INSERT INTO basic_table (basic_title, basic_content, basic_date, basic_view, basic_anonym, basic_writer) VALUES
+INSERT INTO basic_board (basic_title, basic_content, basic_date, basic_view, basic_anonym, basic_writer) VALUES
 ('안녕하세요', '첫 번째 글입니다!', '2025-01-14', 12, 'NO', 12),
 ('질문 드립니다', 'DB 설계 관련 문의드려요.', '2025-01-14', 25, 'YES', 5),
 ('서버 점검 공지', '내일 2시간 동안 서버 점검 예정입니다.', '2025-01-13', 45, 'NO', 18),
