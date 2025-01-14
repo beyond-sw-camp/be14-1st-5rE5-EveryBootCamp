@@ -284,7 +284,7 @@ CREATE TABLE IF NOT EXISTS MENTORING (
 CREATE TABLE IF NOT EXISTS MENTOR_SCHEDULE (
     mt_schedule_id INT AUTO_INCREMENT NOT NULL COMMENT '멘토 일정 ID' PRIMARY KEY, -- 멘토 일정 고유 식별자
     mt_schedule_date DATE NOT NULL COMMENT '일정 날짜',                             -- 멘토 일정 날짜
-    mtr_id INT NOT NULL COMMENT '멘토링 ID'                                        -- 연결된 멘토링 ID
+    mtr_id INT NOT NULL COMMENT '멘토방 ID'                                        -- 연결된 멘토방 ID
 );
 
 -- MENTEE_FROM_MENTORING 테이블 생성
