@@ -84,7 +84,7 @@ CREATE TABLE IF NOT EXISTS LIBRARY (
     lib_member_id INT NOT NULL COMMENT '회원 ID' PRIMARY KEY,              -- 대출한 회원의 ID (외래 키: MEMBER 테이블 참조)
     lib_book_id INT NOT NULL COMMENT '책 ID',                             -- 대출한 책의 ID (외래 키: BOOK_INFO 테이블 참조)
     lib_start_date DATE NOT NULL COMMENT '대출 시작일',                   -- 대출 시작 날짜
-    lib_rental_yn CHAR(4) DEFAULT 'N' COMMENT '반납 여부' CHECK (lib_rental_yn IN ('y', 'n')), -- 반납 여부
+    lib_rental_yn CHAR(4) NOT NULL COMMENT '반납 여부' DEFAULT 'N' CHECK (lib_rental_yn IN ('y', 'n')), -- 반납 여부
     FOREIGN KEY (lib_member_id) REFERENCES MEMBER (member_id),             -- 회원 ID 외래 키 설정
     FOREIGN KEY (lib_book_id) REFERENCES BOOK_INFO (book_id)               -- 책 ID 외래 키 설정
 );
