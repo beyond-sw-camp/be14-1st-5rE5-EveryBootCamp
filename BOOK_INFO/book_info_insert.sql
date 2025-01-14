@@ -1,4 +1,4 @@
-INSERT INTO BOOK_INFO (book_name, book_author, book_publisher, total_copies) VALUES
+INSERT INTO BOOK_INFO (book_name, book_author, book_publisher, book_total) VALUES
 ('채식주의자', '한강', '창비', 4),
 ('소년이 온다', '한강', '창비', 2),
 ('김수영 시집', '나태주', '문학과지성사', 1),
