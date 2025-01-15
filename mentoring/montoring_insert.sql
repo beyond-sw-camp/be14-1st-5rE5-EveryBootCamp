@@ -1,0 +1,6 @@
+INSERT INTO MENTORING (mentor_id) VALUES
+(101),
+(102),
+(103),
+(111),
+(112);
