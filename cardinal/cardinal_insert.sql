@@ -1,5 +1,6 @@
 INSERT INTO CARDINAL (cardinal_id)
 VALUES
+(0),
 (1),
 (2),
 (3),
