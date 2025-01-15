@@ -1,3 +1,5 @@
+ALTER TABLE study_page AUTO_INCREMENT = 1;
+
 INSERT INTO STUDY_PAGE (study_page_title, study_post_id)
 VALUES
 ('자바 초급 강의', 1),
