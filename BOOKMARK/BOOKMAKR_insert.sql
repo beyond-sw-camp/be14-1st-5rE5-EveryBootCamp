@@ -1,4 +1,4 @@
-INSERT INTO BOOKMARKS (member_id, basic_bm_id, study_bm_id, emp_bm_id) VALUES
+INSERT INTO BOOKMARK (member_id, basic_bm_id, study_bm_id, emp_bm_id) VALUES
 (12, 1, NULL, 5),      -- 회원 12는 기본 게시판 북마크 ID 1, 취업 정보 게시판 북마크 ID 5를 소유
 (5, 2, 3, NULL),       -- 회원 5는 기본 게시판 북마크 ID 2, 스터디 게시판 북마크 ID 3을 소유
 (18, 4, NULL, NULL),   -- 회원 18은 기본 게시판 북마크 ID 4만 소유
