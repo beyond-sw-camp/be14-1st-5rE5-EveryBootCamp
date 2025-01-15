@@ -282,11 +282,11 @@ CREATE TABLE IF NOT EXISTS MENTORING (
 );
 
 CREATE TABLE IF NOT EXISTS MENTEE_FROM_MENTORING (
-    mfm_id INTEGER NOT NULL COMMENT '멘토방 ID',
+    mfr_id INTEGER NOT NULL COMMENT '멘토방 ID',
     menti_id INTEGER NOT NULL COMMENT '멘티 ID',
-    PRIMARY KEY(mfm_id, menti_id),
-    FOREIGN KEY (mfm_id)
-    REFERENCES member(member_id),
+    PRIMARY KEY(mfr_id, menti_id),
+    FOREIGN KEY (mfr_id)
+    REFERENCES MENTORING(mtr_id),
     FOREIGN KEY (menti_id)
     REFERENCES member(member_id)
 );
