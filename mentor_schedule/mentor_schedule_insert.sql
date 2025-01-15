@@ -1,6 +1,8 @@
-INSERT INTO MENTOR_SCHEDULE (mt_schedule_date, mtr_id) VALUES
-('2024-01-01', 1),
-('2024-01-05', 2),
-('2024-01-10', 3),
-('2024-01-15', 4),
-('2024-01-20', 5);
+ALTER TABLE MENTOR_SCHEDULE AUTO_INCREMENT = 1;
+
+INSERT INTO MENTOR_SCHEDULE (mt_schedule_start_date, mt_schedule_end_date, mtr_id) VALUES
+('2024-01-01', '2024-01-02', 1),
+('2024-01-05', '2024-01-06', 2),
+('2024-01-10', '2024-01-11', 3),
+('2024-01-15', '2024-01-16', 4),
+('2024-01-20', '2024-01-21', 5);
