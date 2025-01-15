@@ -291,6 +291,8 @@ CREATE TABLE IF NOT EXISTS MENTORING (
     mentor_id INTEGER NOT NULL COMMENT '멘토 ID',
     FOREIGN KEY (mentor_id)
     REFERENCES member(member_id)
+    CONSTRAINT chk_mentor_completed
+	 CHECK (mentor_id IN (SELECT member_id FROM member WHERE member_cmplt_yn = 'y'));
 );
 
 CREATE TABLE IF NOT EXISTS MENTEE_FROM_MENTORING (
