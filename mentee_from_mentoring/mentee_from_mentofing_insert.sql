@@ -1,4 +1,4 @@
-INSERT INTO MENTEE_FROM_MENTORING (mfm_id, menti_id) VALUES
+INSERT INTO MENTEE_FROM_MENTORING (mfr_id, menti_id) VALUES
 (1, 121), -- 멘토링 방 1에 사다
 (1, 122), -- 멘토링 방 1에 모모
 (1, 123), -- 멘토링 방 1에 지효
