@@ -67,7 +67,7 @@ CREATE TABLE IF NOT EXISTS BASIC_BOARD (
     basic_title VARCHAR(255) NOT NULL COMMENT '게시글 제목',
     basic_content VARCHAR(255) NOT NULL COMMENT '게시글 내용',
     basic_date DATE NOT NULL COMMENT '작성 날짜',
-    basic_view INTEGER NOT NULL COMMENT '조회수',
+    basic_view INTEGER NOT NULL DEFAULT 0 COMMENT '조회수',
     basic_anonym_yn CHAR(4) NOT NULL DEFAULT 'n' COMMENT '익명 여부' CHECK(basic_anonym_yn IN ('y', 'n')),
     basic_writer INTEGER NOT NULL COMMENT '작성자 ID',
     FOREIGN KEY (basic_writer)
@@ -79,7 +79,7 @@ CREATE TABLE IF NOT EXISTS EMP_INFO_BOARD (
     emp_title VARCHAR(255) NOT NULL COMMENT '게시글 제목',
     emp_content VARCHAR(255) NOT NULL COMMENT '게시글 내용',
     emp_date DATE NOT NULL COMMENT '작성 날짜',
-    emp_view INTEGER NOT NULL COMMENT '조회수',
+    emp_view INTEGER NOT NULL DEFAULT 0 COMMENT '조회수',
     emp_anonym_yn CHAR(4) NOT NULL DEFAULT 'n' COMMENT '익명 여부' CHECK(emp_anonym_yn IN ('y', 'n')) ,
     emp_writer INTEGER NOT NULL COMMENT '작성자 ID',
     FOREIGN KEY (emp_writer)
@@ -91,7 +91,7 @@ CREATE TABLE IF NOT EXISTS STUDY_BOARD (
     study_title VARCHAR(255) NOT NULL COMMENT '게시글 제목',
     study_content VARCHAR(255) NOT NULL COMMENT '게시글 내용',
     study_date DATE NOT NULL COMMENT '작성 날짜',
-    study_view INTEGER NOT NULL COMMENT '조회수',
+    study_view INTEGER NOT NULL DEFAULT 0 COMMENT '조회수',
     study_complete_yn CHAR(4) NOT NULL DEFAULT 'n' COMMENT '모집 완료 여부' CHECK(study_complete_yn IN ('y', 'n')),
     study_writer INTEGER NOT NULL COMMENT '작성자 ID',
     FOREIGN KEY (study_writer)
