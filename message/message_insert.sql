@@ -1,4 +1,4 @@
-INSERT INTO MESSAGES (msg_content, msg_send_date, msg_sender_id, msg_rcver_id) VALUES
+INSERT INTO MESSAGE (msg_content, msg_send_date, msg_sender_id, msg_rcver_id) VALUES
 ('안녕하세요, 도움 요청드립니다.', '2025-01-14', 12, 5),
 ('서버 점검 관련 질문 드립니다.', '2025-01-14', 18, 3),
 ('새로운 기능에 대한 피드백입니다.', '2025-01-13', 9, 21),
