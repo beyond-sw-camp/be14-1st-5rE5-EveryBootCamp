@@ -194,14 +194,11 @@ CREATE TABLE IF NOT EXISTS BASIC_REPORT (
     basic_rpt_date DATE NOT NULL COMMENT '신고 날짜',
     basic_rpt_reason_id INTEGER NOT NULL COMMENT '신고 사유 ID',
     basic_rpt_member_id INTEGER NOT NULL COMMENT '신고자 ID',
-    basic_rpted_member_id INTEGER NOT NULL COMMENT '피신고자 ID',
     basic_post_id INTEGER NULL COMMENT '신고된 게시글 ID',
     basic_cmt_id INTEGER NULL COMMENT '신고된 댓글 ID',
     FOREIGN KEY (basic_rpt_reason_id)
     REFERENCES report_reason(rpt_reason_id),
     FOREIGN KEY (basic_rpt_member_id)
-    REFERENCES member(member_id),
-    FOREIGN KEY (basic_rpted_member_id)
     REFERENCES member(member_id),
     FOREIGN KEY (basic_post_id)
     REFERENCES basic_board(basic_id),
@@ -214,14 +211,11 @@ CREATE TABLE IF NOT EXISTS EMP_INFO_REPORT (
     emp_rpt_date DATE NOT NULL COMMENT '신고 날짜',
     emp_rpt_reason_id INTEGER NOT NULL COMMENT '신고 사유 ID',
     emp_rpt_member_id INTEGER NOT NULL COMMENT '신고자 ID',
-    emp_rpted_member_id INTEGER NOT NULL COMMENT '피신고자 ID',
     emp_post_id INTEGER NULL COMMENT '게시글 ID',
     emp_cmt_id INTEGER NULL COMMENT '댓글 ID',
 	 FOREIGN KEY (emp_rpt_reason_id)
     REFERENCES report_reason(rpt_reason_id),
     FOREIGN KEY (emp_rpt_member_id)
-    REFERENCES member(member_id),
-    FOREIGN KEY (emp_rpted_member_id)
     REFERENCES member(member_id),
     FOREIGN KEY (emp_post_id)
     REFERENCES emp_info_board(emp_id),
@@ -234,14 +228,11 @@ CREATE TABLE IF NOT EXISTS STUDY_REPORT (
     study_rpt_date DATE NOT NULL COMMENT '신고 날짜',
     study_rpt_reason_id INTEGER NOT NULL COMMENT '신고 사유 ID',
     study_rpt_member_id INTEGER NOT NULL COMMENT '신고자 ID',
-    study_rpted_member_id INTEGER NOT NULL COMMENT '피신고자 ID',
     study_post_id INTEGER NULL COMMENT '게시글 ID',
     study_cmt_id INTEGER NULL COMMENT '댓글 ID',
     FOREIGN KEY (study_rpt_reason_id)
     REFERENCES report_reason(rpt_reason_id),
     FOREIGN KEY (study_rpt_member_id)
-    REFERENCES member(member_id),
-    FOREIGN KEY (study_rpted_member_id)
     REFERENCES member(member_id),
     FOREIGN KEY (study_post_id)
     REFERENCES study_board(study_id),
