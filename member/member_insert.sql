@@ -1,5 +1,6 @@
 INSERT INTO MEMBER (member_email, member_pw, member_name, member_no, member_pnum, member_photo, member_cmplt_yn, member_entry_yn, member_blocklist_yn, member_blocklist_date, member_cardinal_id)
 VALUES
+('admin', 'admin', '관리자', '123456-123456', '010-1234-5678', NULL, 'y', 'n', 'n', NULL, 0),
 ('minji@example.com', 'passMinji123', '민자', '900101-2234567', '010-1234-5671', NULL, 'y', 'n', 'n', NULL, 1),
 ('hani@example.com', 'passHani456', '하나', '000202-4234567', '010-1234-5672', NULL, 'y', 'n', 'n', NULL, 1),
 ('danielle@example.com', 'passDan789', '다닐', '910303-1234567', '010-1234-5673', NULL, 'y', 'n', 'n', NULL, 1),
