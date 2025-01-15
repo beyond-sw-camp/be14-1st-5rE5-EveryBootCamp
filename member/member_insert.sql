@@ -1,6 +1,10 @@
+INSERT INTO MEMBER(member_id,member_email, member_pw, member_name, member_no, member_pnum, member_photo, member_cmplt_yn, member_entry_yn, member_blocklist_yn, member_blocklist_date, member_cardinal_id)
+VALUES
+(1, 'admin1', 'admin', '관리자', '123456-123456', '010-1234-5678', NULL, 'y', 'n', 'n', NULL, 0);
+
+ALTER TABLE member AUTO_INCREMENT = 101;
 INSERT INTO MEMBER (member_email, member_pw, member_name, member_no, member_pnum, member_photo, member_cmplt_yn, member_entry_yn, member_blocklist_yn, member_blocklist_date, member_cardinal_id)
 VALUES
-('admin', 'admin', '관리자', '123456-123456', '010-1234-5678', NULL, 'y', 'n', 'n', NULL, 0),
 ('minji@example.com', 'passMinji123', '민자', '900101-2234567', '010-1234-5671', NULL, 'y', 'n', 'n', NULL, 1),
 ('hani@example.com', 'passHani456', '하나', '000202-4234567', '010-1234-5672', NULL, 'y', 'n', 'n', NULL, 1),
 ('danielle@example.com', 'passDan789', '다닐', '910303-1234567', '010-1234-5673', NULL, 'y', 'n', 'n', NULL, 1),
@@ -29,4 +33,5 @@ VALUES
 ('chaeyoung@example.com', 'passCha456', '채영', '800626-2234567', '010-1234-5696', NULL, 'n', 'n', 'n', NULL, 5),
 ('tzuyu@example.com', 'passTzu789', '쯔유', '900727-2234567', '010-1234-5697', NULL, 'n', 'n', 'n', NULL, 5),
 ('yeji@example.com', 'passYej123', '예준', '910828-4234567', '010-1234-5698', NULL, 'n', 'n', 'n', NULL, 6),
-('lia@example.com', 'passLia456', '리아', '800929-2234567', '010-1234-5699', NULL, 'n', 'n', 'n', NULL, 6);
+('lia@example.com', 'passLia456', '리아', '800929-2234567', '010-1234-5699', NULL, 'n', 'n', 'n', NULL, 6),
+('eunwoo@example.com', 'passen553', '온우', '970207-1003407', '010-0407-7040', NULL, 'n', 'n', 'n', NULL, 6);
