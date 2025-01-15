@@ -298,8 +298,8 @@ CREATE TABLE IF NOT EXISTS PERSONAL_SCHEDULE (
     psn_schedule_id INTEGER AUTO_INCREMENT NOT NULL PRIMARY KEY COMMENT '개인 일정 ID',
     psn_schedule_content VARCHAR(255) NOT NULL COMMENT '일정 내용',
     psn_schedule_date DATE NOT NULL COMMENT '일정 날짜',
-    psn_schedule_writer_id INTEGER NOT NULL COMMENT '작성자 ID',
-    FOREIGN KEY (psn_schedule_writer_id)
+    psn_schedule_member_id INTEGER NOT NULL COMMENT '회원 ID',
+    FOREIGN KEY (psn_schedule_member_id)
     REFERENCES member(member_id)
 );
 
@@ -307,10 +307,7 @@ CREATE TABLE IF NOT EXISTS SHARED_SCHEDULE (
     sh_schedule_id INTEGER AUTO_INCREMENT NOT NULL PRIMARY KEY COMMENT '공유 일정 ID',
     sh_schedule_content VARCHAR(255) NOT NULL COMMENT '일정 내용',
     sh_schedule_date DATE NOT NULL COMMENT '일정 날짜',
-    member_id INTEGER NOT NULL COMMENT '회원(관리자) ID',
     cardinal_id INTEGER NOT NULL COMMENT '기수 ID',
-    FOREIGN KEY (member_id)
-    REFERENCES member(member_id),
     FOREIGN KEY (cardinal_id)
     REFERENCES CARDINAL(cardinal_id)
 );
