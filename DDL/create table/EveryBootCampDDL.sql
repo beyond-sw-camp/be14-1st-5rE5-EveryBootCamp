@@ -53,7 +53,7 @@ CREATE TABLE IF NOT EXISTS MEMBER (
 	 member_cmplt_yn CHAR(4) NOT NULL COMMENT '수료 여부'CHECK(member_cmplt_yn IN ('y', 'n')),
     member_entry_yn CHAR(4) NOT NULL DEFAULT 'n' COMMENT '허가 여부' CHECK(member_entry_yn IN ('y', 'n')),
     member_blocklist_yn CHAR(4) NOT NULL DEFAULT 'n' COMMENT '블랙리스트 여부' CHECK(member_blocklist_yn IN ('y', 'n')),
-    member_blocklist_date DATE COMMENT '블랙리스트 등록 날짜',
+    member_blocklist_date DATETIME COMMENT '블랙리스트 등록 날짜',
     member_cardinal_id INTEGER NOT NULL COMMENT '기수 ID',
     FOREIGN KEY (member_cardinal_id)
 	 REFERENCES CARDINAL (cardinal_id)
@@ -66,7 +66,7 @@ CREATE TABLE IF NOT EXISTS BASIC_BOARD (
     basic_id INTEGER AUTO_INCREMENT NOT NULL PRIMARY KEY COMMENT '자유 게시글 ID',
     basic_title VARCHAR(255) NOT NULL COMMENT '게시글 제목',
     basic_content VARCHAR(255) NOT NULL COMMENT '게시글 내용',
-    basic_date DATE NOT NULL COMMENT '작성 날짜',
+    basic_date DATETIME NOT NULL COMMENT '작성 날짜',
     basic_view INTEGER NOT NULL DEFAULT 0 COMMENT '조회수',
     basic_anonym_yn CHAR(4) NOT NULL DEFAULT 'n' COMMENT '익명 여부' CHECK(basic_anonym_yn IN ('y', 'n')),
     basic_writer INTEGER NOT NULL COMMENT '작성자 ID',
@@ -78,7 +78,7 @@ CREATE TABLE IF NOT EXISTS EMP_INFO_BOARD (
     emp_id INTEGER AUTO_INCREMENT NOT NULL PRIMARY KEY COMMENT '취업 정보 게시글 ID', 
     emp_title VARCHAR(255) NOT NULL COMMENT '게시글 제목',
     emp_content VARCHAR(255) NOT NULL COMMENT '게시글 내용',
-    emp_date DATE NOT NULL COMMENT '작성 날짜',
+    emp_date DATETIME NOT NULL COMMENT '작성 날짜',
     emp_view INTEGER NOT NULL DEFAULT 0 COMMENT '조회수',
     emp_anonym_yn CHAR(4) NOT NULL DEFAULT 'n' COMMENT '익명 여부' CHECK(emp_anonym_yn IN ('y', 'n')) ,
     emp_writer INTEGER NOT NULL COMMENT '작성자 ID',
@@ -90,7 +90,7 @@ CREATE TABLE IF NOT EXISTS STUDY_BOARD (
     study_id INTEGER AUTO_INCREMENT NOT NULL PRIMARY KEY COMMENT '스터디 모집 게시글 ID',
     study_title VARCHAR(255) NOT NULL COMMENT '게시글 제목',
     study_content VARCHAR(255) NOT NULL COMMENT '게시글 내용',
-    study_date DATE NOT NULL COMMENT '작성 날짜',
+    study_date DATETIME NOT NULL COMMENT '작성 날짜',
     study_view INTEGER NOT NULL DEFAULT 0 COMMENT '조회수',
     study_complete_yn CHAR(4) NOT NULL DEFAULT 'n' COMMENT '모집 완료 여부' CHECK(study_complete_yn IN ('y', 'n')),
     study_writer INTEGER NOT NULL COMMENT '작성자 ID',
@@ -104,7 +104,7 @@ CREATE TABLE IF NOT EXISTS STUDY_BOARD (
 CREATE TABLE IF NOT EXISTS BASIC_CMT (
     basic_cmt_id INTEGER AUTO_INCREMENT NOT NULL PRIMARY KEY COMMENT '댓글 ID',
     basic_cmt_content VARCHAR(255) NOT NULL COMMENT '댓글 내용',
-    basic_cmt_date DATE NOT NULL COMMENT '작성 날짜',
+    basic_cmt_date DATETIME NOT NULL COMMENT '작성 날짜',
     basic_cmt_anonym_yn CHAR(4) DEFAULT 'n' COMMENT '익명 여부' CHECK(basic_cmt_anonym_yn IN ('y', 'n')),
     basic_post_id INTEGER NOT NULL COMMENT '자유게시글 ID',
     basic_cmt_writer INTEGER NOT NULL COMMENT '댓글 작성자 ID',
@@ -120,7 +120,7 @@ CREATE TABLE IF NOT EXISTS BASIC_CMT (
 CREATE TABLE IF NOT EXISTS EMP_INFO_CMT (
     emp_cmt_id INTEGER AUTO_INCREMENT NOT NULL PRIMARY KEY COMMENT '댓글 ID',
     emp_cmt_content VARCHAR(255) NOT NULL COMMENT '댓글 내용',
-    emp_cmt_date DATE NOT NULL COMMENT '작성 날짜',
+    emp_cmt_date DATETIME NOT NULL COMMENT '작성 날짜',
     emp_cmt_anonym_yn CHAR(4) DEFAULT 'n' COMMENT '익명 여부' CHECK(emp_cmt_anonym_yn IN ('y', 'n')),
     emp_post_id INTEGER NOT NULL COMMENT '게시글 id',
     emp_cmt_writer INTEGER NOT NULL COMMENT '댓글 작성자',
@@ -136,7 +136,7 @@ CREATE TABLE IF NOT EXISTS EMP_INFO_CMT (
 CREATE TABLE IF NOT EXISTS STUDY_CMT (
     study_cmt_id INTEGER AUTO_INCREMENT NOT NULL PRIMARY KEY COMMENT '스터디 모집 댓글 ID',
     study_cmt_content VARCHAR(255) NOT NULL COMMENT ' 댓글 내용',
-    study_cmt_date DATE NOT NULL COMMENT '작성 날짜',
+    study_cmt_date DATETIME NOT NULL COMMENT '작성 날짜',
     study_cmt_anonym_yn CHAR(4) NOT NULL DEFAULT 'n' COMMENT '익명 여부' CHECK(study_cmt_anonym_yn IN ('y', 'n')),
     study_post_id INTEGER NOT NULL COMMENT '스터디 모집 게시글 id',
     study_cmt_writer INTEGER NOT NULL COMMENT '댓글 작성자',
@@ -191,7 +191,7 @@ CREATE TABLE IF NOT EXISTS REPORT_REASON (
 
 CREATE TABLE IF NOT EXISTS BASIC_REPORT (
     basic_rpt_id INTEGER AUTO_INCREMENT NOT NULL PRIMARY KEY COMMENT '신고 ID',
-    basic_rpt_date DATE NOT NULL COMMENT '신고 날짜',
+    basic_rpt_date DATETIME NOT NULL COMMENT '신고 날짜',
     basic_rpt_reason_id INTEGER NOT NULL COMMENT '신고 사유 ID',
     basic_rpt_member_id INTEGER NOT NULL COMMENT '신고자 ID',
     basic_post_id INTEGER NULL COMMENT '신고된 게시글 ID',
@@ -208,7 +208,7 @@ CREATE TABLE IF NOT EXISTS BASIC_REPORT (
 
 CREATE TABLE IF NOT EXISTS EMP_INFO_REPORT (
     emp_rpt_id INTEGER AUTO_INCREMENT NOT NULL PRIMARY KEY COMMENT '신고 ID',
-    emp_rpt_date DATE NOT NULL COMMENT '신고 날짜',
+    emp_rpt_date DATETIME NOT NULL COMMENT '신고 날짜',
     emp_rpt_reason_id INTEGER NOT NULL COMMENT '신고 사유 ID',
     emp_rpt_member_id INTEGER NOT NULL COMMENT '신고자 ID',
     emp_post_id INTEGER NULL COMMENT '게시글 ID',
@@ -225,7 +225,7 @@ CREATE TABLE IF NOT EXISTS EMP_INFO_REPORT (
 
 CREATE TABLE IF NOT EXISTS STUDY_REPORT (
     study_rpt_id INTEGER AUTO_INCREMENT NOT NULL PRIMARY KEY COMMENT '신고 ID',
-    study_rpt_date DATE NOT NULL COMMENT '신고 날짜',
+    study_rpt_date DATETIME NOT NULL COMMENT '신고 날짜',
     study_rpt_reason_id INTEGER NOT NULL COMMENT '신고 사유 ID',
     study_rpt_member_id INTEGER NOT NULL COMMENT '신고자 ID',
     study_post_id INTEGER NULL COMMENT '게시글 ID',
@@ -242,7 +242,7 @@ CREATE TABLE IF NOT EXISTS STUDY_REPORT (
 
 CREATE TABLE IF NOT EXISTS BLOCKLIST (
     blc_id INTEGER AUTO_INCREMENT NOT NULL PRIMARY KEY COMMENT '블록리스트 ID',
-    blc_date DATE NOT NULL COMMENT '블록 날짜',
+    blc_date DATETIME NOT NULL COMMENT '블록 날짜',
     blc_reason VARCHAR(255) NOT NULL COMMENT '블록 사유',
     blc_action VARCHAR(255) NOT NULL COMMENT '조치 내역',
     blc_member_id INTEGER NOT NULL COMMENT '블록 회원 ID',
@@ -297,7 +297,8 @@ CREATE TABLE IF NOT EXISTS MENTEE_FROM_MENTORING (
 CREATE TABLE IF NOT EXISTS PERSONAL_SCHEDULE (
     psn_schedule_id INTEGER AUTO_INCREMENT NOT NULL PRIMARY KEY COMMENT '개인 일정 ID',
     psn_schedule_content VARCHAR(255) NOT NULL COMMENT '일정 내용',
-    psn_schedule_date DATE NOT NULL COMMENT '일정 날짜',
+    psn_schedule_start_date DATETIME NOT NULL COMMENT '일정 시작 날짜',
+    psn_schedule_end_date DATETIME NOT NULL COMMENT '일정 종료 날짜',
     psn_schedule_member_id INTEGER NOT NULL COMMENT '회원 ID',
     FOREIGN KEY (psn_schedule_member_id)
     REFERENCES member(member_id)
@@ -306,7 +307,8 @@ CREATE TABLE IF NOT EXISTS PERSONAL_SCHEDULE (
 CREATE TABLE IF NOT EXISTS SHARED_SCHEDULE (
     sh_schedule_id INTEGER AUTO_INCREMENT NOT NULL PRIMARY KEY COMMENT '공유 일정 ID',
     sh_schedule_content VARCHAR(255) NOT NULL COMMENT '일정 내용',
-    sh_schedule_date DATE NOT NULL COMMENT '일정 날짜',
+    sh_schedule_start_date DATETIME NOT NULL COMMENT '일정 시작 날짜',
+    sh_schedule_end_date DATETIME NOT NULL COMMENT '일정 종료 날짜',
     cardinal_id INTEGER NOT NULL COMMENT '기수 ID',
     FOREIGN KEY (cardinal_id)
     REFERENCES CARDINAL(cardinal_id)
@@ -314,7 +316,7 @@ CREATE TABLE IF NOT EXISTS SHARED_SCHEDULE (
 
 CREATE TABLE IF NOT EXISTS MENTOR_SCHEDULE (
     mt_schedule_id INTEGER AUTO_INCREMENT NOT NULL PRIMARY KEY COMMENT '멘토 일정 ID',
-    mt_schedule_date DATE NOT NULL COMMENT '일정 날짜',
+    mt_schedule_date DATETIME NOT NULL COMMENT '일정 날짜',
     mtr_id INTEGER NOT NULL COMMENT '멘토방 ID',
     FOREIGN KEY (mtr_id)
     REFERENCES MENTORING(mtr_id)
