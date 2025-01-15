@@ -265,10 +265,7 @@ CREATE TABLE IF NOT EXISTS BLOCKLIST (
 CREATE TABLE IF NOT EXISTS STUDY_PAGE (
     study_page_id INTEGER AUTO_INCREMENT NOT NULL PRIMARY KEY COMMENT '스터디 페이지 ID',
     study_page_title VARCHAR(255) NOT NULL COMMENT '페이지 제목',
-    study_post_writer INTEGER NOT NULL COMMENT '게시글 작성자',
     study_post_id INTEGER NOT NULL COMMENT '게시글 ID',
-    FOREIGN KEY (study_post_writer)
-    REFERENCES member(member_id),
     FOREIGN KEY (study_post_id)
     REFERENCES study_board(study_id)
 );
