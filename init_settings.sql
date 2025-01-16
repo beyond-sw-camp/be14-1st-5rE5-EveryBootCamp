@@ -312,33 +312,33 @@ VALUES
 
 -- ------------------- MENTORING -------------------------
 ALTER TABLE mentoring AUTO_INCREMENT = 1;
-INSERT INTO MENTORING (mentor_id,mtr_accept_yn)
+INSERT INTO MENTORING (mentor_id)
 VALUES
-    (101,'y'),
-    (102,'y'),
-    (103,'y'),
-    (111,'y'),
-    (112,'y');
+    (101),
+    (102),
+    (103),
+    (111),
+    (112);
 
 
 -- ------------------- MENTEE_FROM_MENTORING -------------------------
-INSERT INTO MENTEE_FROM_MENTORING (mfr_id, menti_id)
+INSERT INTO MENTEE_FROM_MENTORING (mfr_id, menti_id,mfr_accept_yn)
 VALUES
-    (1, 121),
-    (1, 122),
-    (1, 123),
-    (2, 124),
-    (2, 125),
-    (3, 126),
-    (3, 127),
-    (3, 128),
-    (3, 129),
-    (4, 130),
-    (5, 121),
-    (5, 122),
-    (5, 123),
-    (5, 124),
-    (5, 125);
+    (1, 121,'y'),
+    (1, 122,'y'),
+    (1, 123,'y'),
+    (2, 124,'y'),
+    (2, 125,'y'),
+    (3, 126,'y'),
+    (3, 127,'y'),
+    (3, 128,'y'),
+    (3, 129,'y'),
+    (4, 130,'y'),
+    (5, 121,'y'),
+    (5, 122,'y'),
+    (5, 123,'y'),
+    (5, 124,'y'),
+    (5, 125,'y');
 
 
 -- ------------------- PERSONAL_SCHEDULE -------------------------
