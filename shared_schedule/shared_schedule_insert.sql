@@ -1,4 +1,4 @@
-INSERT INTO shared_schedule (sh_schedule_content, sh_schedule_start_date, sh_schedule_end_date, cardinal_id) VALUES
+ INSERT INTO shared_schedule (sh_schedule_content, sh_schedule_start_date, sh_schedule_end_date, cardinal_id) VALUES
 ('전체 프로젝트 회의', '2024-01-01', '2024-01-02', 1),
 ('2분기 개발 계획 수립 회의', '2024-01-05', '2024-01-05', 2),
 ('디자인 팀 회의', '2024-01-10', '2024-01-11', 3),
