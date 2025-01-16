@@ -291,7 +291,7 @@ CREATE TABLE IF NOT EXISTS MENTORING (
 CREATE TABLE IF NOT EXISTS MENTEE_FROM_MENTORING (
     mfr_id INTEGER NOT NULL COMMENT '멘토방 ID',
     menti_id INTEGER NOT NULL COMMENT '멘티 ID',
-    mfr_accept_yn CHAR(4) NOT NULL DEFAULT 'n' COMMENT '익명 여부' CHECK(mfr_accept_yn IN ('y', 'n')),
+    mfr_accept_yn CHAR(4) NOT NULL DEFAULT 'n' COMMENT '멘토링 수락 여부' CHECK(mfr_accept_yn IN ('y', 'n')),
     PRIMARY KEY(mfr_id, menti_id),
     FOREIGN KEY (mfr_id)
     REFERENCES MENTORING(mtr_id),
