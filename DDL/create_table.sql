@@ -50,7 +50,8 @@ CREATE TABLE IF NOT EXISTS MEMBER (
     member_no VARCHAR(255) NOT NULL COMMENT '회원 주민등록번호',
     member_pnum VARCHAR(255) NOT NULL COMMENT '회원 전화번호',
     member_photo VARCHAR(255) COMMENT '회원 프로필사진',
-	 member_cmplt_yn CHAR(4) NOT NULL COMMENT '수료 여부'CHECK(member_cmplt_yn IN ('y', 'n')),
+    member_leave_yn CHAR(4) NOT NULL DEFAULT 'n' COMMENT '탈퇴 여부' CHECK(member_blocklist_yn IN ('y', 'n')),
+	member_cmplt_yn CHAR(4) NOT NULL COMMENT '수료 여부'CHECK(member_cmplt_yn IN ('y', 'n')),
     member_entry_yn CHAR(4) NOT NULL DEFAULT 'n' COMMENT '허가 여부' CHECK(member_entry_yn IN ('y', 'n')),
     member_blocklist_yn CHAR(4) NOT NULL DEFAULT 'n' COMMENT '블랙리스트 여부' CHECK(member_blocklist_yn IN ('y', 'n')),
     member_blocklist_date DATETIME COMMENT '블랙리스트 등록 날짜',
@@ -316,9 +317,9 @@ CREATE TABLE IF NOT EXISTS SHARED_SCHEDULE (
 
 CREATE TABLE IF NOT EXISTS MENTOR_SCHEDULE (
     mt_schedule_id INTEGER AUTO_INCREMENT NOT NULL PRIMARY KEY COMMENT '멘토 일정 ID',
-    mt_schedule_date DATETIME NOT NULL COMMENT '일정 날짜',
+    mt_schedule_start_date DATETIME NOT NULL COMMENT '멘토링 시작 날짜',
+    mt_schedule_end_date DATETIME NOT NULL COMMENT '멘토링 종료 날짜',
     mtr_id INTEGER NOT NULL COMMENT '멘토방 ID',
     FOREIGN KEY (mtr_id)
     REFERENCES MENTORING(mtr_id)
 );
-
