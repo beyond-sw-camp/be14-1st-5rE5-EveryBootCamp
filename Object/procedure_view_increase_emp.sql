@@ -1,6 +1,6 @@
 DELIMITER $$
 
-CREATE PROCEDURE increment_view_count_EMP_INFO(IN post_id INT)
+CREATE OR REPLACE PROCEDURE increment_view_count_EMP_INFO(IN post_id INT)
 BEGIN
     -- 게시글의 view 증가
     UPDATE EMP_INFO_BOARD

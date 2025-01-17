@@ -1,6 +1,6 @@
 DELIMITER $$
 
-CREATE PROCEDURE increment_view_count_study(IN post_id INT)
+CREATE OR REPLACE PROCEDURE increment_view_count_study(IN post_id INT)
 BEGIN
     -- 게시글의 view 증가
     UPDATE STUDY_BOARD
