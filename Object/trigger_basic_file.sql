@@ -1,6 +1,6 @@
 DELIMITER $$
 
-CREATE TRIGGER after_basic_upload_insert
+CREATE OR REPLACE TRIGGER after_basic_upload_insert
     AFTER INSERT ON BASIC_UPLOAD_FILE
     FOR EACH ROW
 BEGIN

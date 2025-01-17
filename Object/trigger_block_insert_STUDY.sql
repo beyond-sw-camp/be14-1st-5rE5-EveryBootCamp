@@ -1,6 +1,6 @@
 DELIMITER $$
 
-CREATE TRIGGER after_report_insert_emp
+CREATE OR REPLACE TRIGGER after_report_insert_emp
     AFTER INSERT ON STUDY_REPORT
     FOR EACH ROW
 BEGIN
@@ -13,10 +13,8 @@ BEGIN
     IF (SELECT member_report FROM member WHERE member_id = NEW.study_rpt_member_id) >= 5 THEN
         -- 블랙리스트에 회원 추가
         INSERT INTO BLOCKLIST (blc_date,blc_reason,blc_action, blc_member_id)
-        VALUES (NOW(),'5회신고','계정정지',NEW.study_rpt_member_id );
+        VALUES (NOW(), '5회 신고', '계정 정지', NEW.study_rpt_member_id );
     END IF;
 END$$
 
 DELIMITER ;
-
-
