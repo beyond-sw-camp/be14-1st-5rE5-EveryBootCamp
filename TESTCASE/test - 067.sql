@@ -1,0 +1,4 @@
+-- 멘토링 취소  test - 067
+DELETE
+FROM MENTEE_FROM_MENTORING
+WHERE menti_id = 125;
