@@ -37,3 +37,17 @@
 - [ ] 알림 기능
 - [ ] 스터디 공간 예약 시스템 ( 밥 테이블 예약 포함 )
 - [ ] 회원 정보 MBTI 추가 ( 스터디 모집 게시판 내 뱃지 표시 )
+
+
+
+This is an H1
+
+# 에브리부캠
+
+
+<details>
+  <summary> 자유게시판 </summary>
+  <details><summary> 자유 게시글 목록</summary>
+    <img src = " ", width="600"> </img>
+  </details>
+</details>
