@@ -1,6 +1,6 @@
 DELIMITER $$
 
-CREATE TRIGGER after_report_insert
+CREATE TRIGGER after_report_insert_basic
     AFTER INSERT ON BASIC_REPORT
     FOR EACH ROW
 BEGIN
