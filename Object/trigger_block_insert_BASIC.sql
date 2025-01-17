@@ -18,3 +18,16 @@ BEGIN
 END$$
 
 DELIMITER ;
+
+INSERT
+  INTO basic_report
+(
+ basic_rpt_date, basic_rpt_reason_id, basic_rpt_member_id, basic_post_id, basic_cmt_id
+)
+VALUES
+(
+ NOW(), 5, 131, 1, NULL
+);
+
+-- 데이터 조회
+SELECT * FROM basic_report ORDER BY basic_rpt_date DESC;
