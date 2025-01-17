@@ -130,8 +130,8 @@ CREATE TABLE IF NOT EXISTS EMP_INFO_CMT (
     emp_cmt_date DATETIME NOT NULL COMMENT '작성 날짜',
     emp_cmt_anonym_yn CHAR(4) DEFAULT 'n' COMMENT '익명 여부' CHECK(emp_cmt_anonym_yn IN ('y', 'n')),
     emp_cmt_erase_yn CHAR(4) DEFAULT 'n' COMMENT '삭제 여부' CHECK(emp_cmt_erase_yn IN ('y', 'n')),
-    emp_post_id INTEGER NOT NULL COMMENT '게시글 id',
-    emp_cmt_writer INTEGER NOT NULL COMMENT '댓글 작성자',
+    emp_post_id INTEGER NOT NULL COMMENT '취업 정보 게시글 id',
+    emp_cmt_writer INTEGER NOT NULL COMMENT '취업 정보 댓글 작성자',
     ref_emp_cmt_id INTEGER COMMENT '대댓글용 참조 댓글 ID',
     FOREIGN KEY (emp_post_id)
     REFERENCES EMP_INFO_BOARD(emp_id),
@@ -148,7 +148,7 @@ CREATE TABLE IF NOT EXISTS STUDY_CMT (
     study_cmt_anonym_yn CHAR(4) NOT NULL DEFAULT 'n' COMMENT '익명 여부' CHECK(study_cmt_anonym_yn IN ('y', 'n')),
     study_cmt_erase_yn CHAR(4) NOT NULL DEFAULT 'n' COMMENT '삭제 여부' CHECK(study_cmt_erase_yn IN ('y', 'n')),
     study_post_id INTEGER NOT NULL COMMENT '스터디 모집 게시글 id',
-    study_cmt_writer INTEGER NOT NULL COMMENT '댓글 작성자',
+    study_cmt_writer INTEGER NOT NULL COMMENT '스터디 모집 댓글 작성자',
     ref_study_cmt_id INTEGER COMMENT '대댓글용 참조 댓글 ID',
     FOREIGN KEY (study_post_id)
     REFERENCES STUDY_BOARD(study_id),
