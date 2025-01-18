@@ -53,7 +53,7 @@
 
 🔗 <a href="https://docs.google.com/spreadsheets/d/1t4HdLfTOnScKb9n-gGkM4NVxvhieuCJ2Qb8384PqUuM/edit?gid=0#gid=0"> WBS 자세히 보기 </a>
 
-<img src = "https://github.com/beyond-SW-Camp-14th-5rE5/EveryBootCamp/blob/main/%ED%8C%8C%EC%9D%BC/PNG/WBS/WBS.png?raw=true" width = "1000"> </img> 
+<img src = https://media.discordapp.net/attachments/1326093292256890966/1330104868257529856/image.png?ex=678cc430&is=678b72b0&hm=54e4ad457a93c625b3e0ab3510b75907e7823a3c2d1ba9440002e24d8095e1d5&=&format=webp&quality=lossless&width=1440&height=565 width = "1000"> </img> 
 <br>
 
 ## 🙆‍♀️ 요구사항 명세서
