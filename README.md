@@ -29,8 +29,8 @@
 
 ### 3. 프로젝트 배경
 
-<img src = "https://github.com/beyond-SW-Camp-14th-5rE5/EveryBootCamp/blob/main/%ED%8C%8C%EC%9D%BC/PNG/%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8%EA%B4%80%EB%A0%A8/README2.png?raw=true" height="300"> </img>
-<img src = "https://github.com/beyond-SW-Camp-14th-5rE5/EveryBootCamp/blob/main/%ED%8C%8C%EC%9D%BC/PNG/%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8%EA%B4%80%EB%A0%A8/README1.png?raw=true" height="300"> </img>
+<img src = "https://github.com/beyond-SW-Camp-14th-5rE5/EveryBootCamp/blob/main/%ED%8C%8C%EC%9D%BC/PNG/%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8%EA%B4%80%EB%A0%A8/README2.png?raw=true" height="250"> </img>
+<img src = "https://github.com/beyond-SW-Camp-14th-5rE5/EveryBootCamp/blob/main/%ED%8C%8C%EC%9D%BC/PNG/%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8%EA%B4%80%EB%A0%A8/README1.png?raw=true" height="250"> </img>
 * 수료생과 수강생 간, 수강생 안에서도 각 기수 간의 <b>정보를 공유할 수 있는 공간과 기회가 부족</b>한 상황
 * 누구에게나 공개된 환경에서는 제공할 수 있는 정보가 제한적
 * 성공적으로 취업한 <b>선배들의 경험과 노하우</b>를 배울 수 있는 기회 필요
@@ -78,39 +78,420 @@
 
 <img src = "https://github.com/beyond-SW-Camp-14th-5rE5/EveryBootCamp/blob/main/%ED%8C%8C%EC%9D%BC/PNG/%EA%B5%AC%EC%A1%B0/%EA%B5%AC%EC%A1%B0.png?raw=true" width = "500"> </img> <br>
 
-- <b>전체 구조</b> <br>
-<img src = "https://github.com/beyond-SW-Camp-14th-5rE5/EveryBootCamp/blob/main/%ED%8C%8C%EC%9D%BC/PNG/%EB%AC%BC%EB%A6%AC%EB%AA%A8%EB%8D%B8%EB%A7%81/%EB%AC%BC%EB%A6%AC%EB%AA%A8%EB%8D%B8%EB%A7%81.png?raw=true" width = "800"> </img> <br>
+#### 전체 구조
+<img src = "https://github.com/beyond-SW-Camp-14th-5rE5/EveryBootCamp/blob/main/%ED%8C%8C%EC%9D%BC/PNG/%EB%AC%BC%EB%A6%AC%EB%AA%A8%EB%8D%B8%EB%A7%81/%EB%AC%BC%EB%A6%AC%EB%AA%A8%EB%8D%B8%EB%A7%81.png?raw=true" width = "700"> </img> <br>
 
-- <b>세부 구조</b> <br>
-<img src = "https://github.com/beyond-SW-Camp-14th-5rE5/EveryBootCamp/blob/main/%ED%8C%8C%EC%9D%BC/PNG/%EB%AC%BC%EB%A6%AC%EB%AA%A8%EB%8D%B8%EB%A7%81/002.png?raw=true" width = "400"> </img>
-<img src = "https://github.com/beyond-SW-Camp-14th-5rE5/EveryBootCamp/blob/main/%ED%8C%8C%EC%9D%BC/PNG/%EB%AC%BC%EB%A6%AC%EB%AA%A8%EB%8D%B8%EB%A7%81/003.png?raw=true" width = "400"> </img>
-<img src = "https://github.com/beyond-SW-Camp-14th-5rE5/EveryBootCamp/blob/main/%ED%8C%8C%EC%9D%BC/PNG/%EB%AC%BC%EB%A6%AC%EB%AA%A8%EB%8D%B8%EB%A7%81/004.png?raw=true" width = "400"> </img>
-<img src = "https://github.com/beyond-SW-Camp-14th-5rE5/EveryBootCamp/blob/main/%ED%8C%8C%EC%9D%BC/PNG/%EB%AC%BC%EB%A6%AC%EB%AA%A8%EB%8D%B8%EB%A7%81/005.png?raw=true" width = "400"> </img>
-<img src = "https://github.com/beyond-SW-Camp-14th-5rE5/EveryBootCamp/blob/main/%ED%8C%8C%EC%9D%BC/PNG/%EB%AC%BC%EB%A6%AC%EB%AA%A8%EB%8D%B8%EB%A7%81/006.png?raw=true" width = "400"> </img>
-<img src = "https://github.com/beyond-SW-Camp-14th-5rE5/EveryBootCamp/blob/main/%ED%8C%8C%EC%9D%BC/PNG/%EB%AC%BC%EB%A6%AC%EB%AA%A8%EB%8D%B8%EB%A7%81/007.png?raw=true" width = "400"> </img>
-<img src = "https://github.com/beyond-SW-Camp-14th-5rE5/EveryBootCamp/blob/main/%ED%8C%8C%EC%9D%BC/PNG/%EB%AC%BC%EB%A6%AC%EB%AA%A8%EB%8D%B8%EB%A7%81/008.png?raw=true" width = "400"> </img>
-<img src = "https://github.com/beyond-SW-Camp-14th-5rE5/EveryBootCamp/blob/main/%ED%8C%8C%EC%9D%BC/PNG/%EB%AC%BC%EB%A6%AC%EB%AA%A8%EB%8D%B8%EB%A7%81/009.png?raw=true" width = "400"> </img>
-<img src = "https://github.com/beyond-SW-Camp-14th-5rE5/EveryBootCamp/blob/main/%ED%8C%8C%EC%9D%BC/PNG/%EB%AC%BC%EB%A6%AC%EB%AA%A8%EB%8D%B8%EB%A7%81/010.png?raw=true" width = "400"> </img>
-<img src = "https://github.com/beyond-SW-Camp-14th-5rE5/EveryBootCamp/blob/main/%ED%8C%8C%EC%9D%BC/PNG/%EB%AC%BC%EB%A6%AC%EB%AA%A8%EB%8D%B8%EB%A7%81/011.png?raw=true" width = "400"> </img>
-
+<details>
+<summary><b>세부 구조</b></summary>
+<img src = "https://github.com/beyond-SW-Camp-14th-5rE5/EveryBootCamp/blob/main/%ED%8C%8C%EC%9D%BC/PNG/%EB%AC%BC%EB%A6%AC%EB%AA%A8%EB%8D%B8%EB%A7%81/002.png?raw=true" width = "350"> </img>
+<img src = "https://github.com/beyond-SW-Camp-14th-5rE5/EveryBootCamp/blob/main/%ED%8C%8C%EC%9D%BC/PNG/%EB%AC%BC%EB%A6%AC%EB%AA%A8%EB%8D%B8%EB%A7%81/003.png?raw=true" width = "350"> </img>
+<img src = "https://github.com/beyond-SW-Camp-14th-5rE5/EveryBootCamp/blob/main/%ED%8C%8C%EC%9D%BC/PNG/%EB%AC%BC%EB%A6%AC%EB%AA%A8%EB%8D%B8%EB%A7%81/004.png?raw=true" width = "350"> </img>
+<img src = "https://github.com/beyond-SW-Camp-14th-5rE5/EveryBootCamp/blob/main/%ED%8C%8C%EC%9D%BC/PNG/%EB%AC%BC%EB%A6%AC%EB%AA%A8%EB%8D%B8%EB%A7%81/005.png?raw=true" width = "350"> </img>
+<img src = "https://github.com/beyond-SW-Camp-14th-5rE5/EveryBootCamp/blob/main/%ED%8C%8C%EC%9D%BC/PNG/%EB%AC%BC%EB%A6%AC%EB%AA%A8%EB%8D%B8%EB%A7%81/006.png?raw=true" width = "350"> </img>
+<img src = "https://github.com/beyond-SW-Camp-14th-5rE5/EveryBootCamp/blob/main/%ED%8C%8C%EC%9D%BC/PNG/%EB%AC%BC%EB%A6%AC%EB%AA%A8%EB%8D%B8%EB%A7%81/007.png?raw=true" width = "350"> </img>
+<img src = "https://github.com/beyond-SW-Camp-14th-5rE5/EveryBootCamp/blob/main/%ED%8C%8C%EC%9D%BC/PNG/%EB%AC%BC%EB%A6%AC%EB%AA%A8%EB%8D%B8%EB%A7%81/008.png?raw=true" width = "350"> </img>
+<img src = "https://github.com/beyond-SW-Camp-14th-5rE5/EveryBootCamp/blob/main/%ED%8C%8C%EC%9D%BC/PNG/%EB%AC%BC%EB%A6%AC%EB%AA%A8%EB%8D%B8%EB%A7%81/009.png?raw=true" width = "350"> </img>
+<img src = "https://github.com/beyond-SW-Camp-14th-5rE5/EveryBootCamp/blob/main/%ED%8C%8C%EC%9D%BC/PNG/%EB%AC%BC%EB%A6%AC%EB%AA%A8%EB%8D%B8%EB%A7%81/010.png?raw=true" width = "350"> </img>
+<img src = "https://github.com/beyond-SW-Camp-14th-5rE5/EveryBootCamp/blob/main/%ED%8C%8C%EC%9D%BC/PNG/%EB%AC%BC%EB%A6%AC%EB%AA%A8%EB%8D%B8%EB%A7%81/011.png?raw=true" width = "350"> </img>
+</details>
 <br>
 
 ## 🪄 DDL
+<details>
+    <summary> 데이터베이스 생성 </summary>
+    
+```sql
+CREATE DATABASE everybootcamp;
+```
+</details>
 
 
+<details>
+    <summary> 테이블 생성 </summary>
+  <details>
+    <summary> 회원 관련 테이블 </summary>
+      
+```sql
+-- 기수 테이블
+CREATE TABLE IF NOT EXISTS CARDINAL (
+    cardinal_id INTEGER NOT NULL PRIMARY KEY COMMENT '기수 ID'
+);
+
+-- 회원 테이블
+CREATE TABLE IF NOT EXISTS MEMBER (
+    member_id INTEGER AUTO_INCREMENT NOT NULL COMMENT '회원 ID' PRIMARY KEY, 
+    member_email VARCHAR(255) NOT NULL UNIQUE COMMENT '회원 이메일',
+    member_pw VARCHAR(255) NOT NULL COMMENT '회원 비밀번호',
+    member_name VARCHAR(255) NOT NULL COMMENT '회원 이름',
+    member_no VARCHAR(255) NOT NULL COMMENT '회원 주민등록번호',
+    member_pnum VARCHAR(255) NOT NULL COMMENT '회원 전화번호',
+    member_photo VARCHAR(255) COMMENT '회원 프로필사진',
+    member_leave_yn CHAR(4) NOT NULL DEFAULT 'n' COMMENT '탈퇴 여부' CHECK(member_blocklist_yn IN ('y', 'n')),
+	member_cmplt_yn CHAR(4) NOT NULL COMMENT '수료 여부'CHECK(member_cmplt_yn IN ('y', 'n')),
+    member_entry_yn CHAR(4) NOT NULL DEFAULT 'n' COMMENT '허가 여부' CHECK(member_entry_yn IN ('y', 'n')),
+    member_report INTEGER NOT NULL DEFAULT 0 COMMENT '신고 당한 횟수',
+    member_blocklist_yn CHAR(4) NOT NULL DEFAULT 'n' COMMENT '블랙리스트 여부' CHECK(member_blocklist_yn IN ('y', 'n')),
+    member_blocklist_date DATETIME COMMENT '블랙리스트 등록 날짜',
+    member_cardinal_id INTEGER NOT NULL COMMENT '기수 ID',
+    FOREIGN KEY (member_cardinal_id)
+	 REFERENCES CARDINAL (cardinal_id)
+);
+```
+  </details>
+  
+<details>
+    <summary> 게시판 관련 테이블 </summary>
+      
+```sql
+-- 자유 게시판 테이블
+CREATE TABLE IF NOT EXISTS BASIC_BOARD (
+    basic_id INTEGER AUTO_INCREMENT NOT NULL PRIMARY KEY COMMENT '자유 게시글 ID',
+    basic_title VARCHAR(255) NOT NULL COMMENT '게시글 제목',
+    basic_content VARCHAR(255) NOT NULL COMMENT '게시글 내용',
+    basic_date DATETIME NOT NULL COMMENT '작성 날짜',
+    basic_view INTEGER NOT NULL DEFAULT 0 COMMENT '조회수',
+    basic_file_yn CHAR(4) NOT NULL DEFAULT 'n' COMMENT '파일 첨부 여부' CHECK(basic_file_yn IN ('y', 'n')),
+    basic_anonym_yn CHAR(4) NOT NULL DEFAULT 'n' COMMENT '익명 여부' CHECK(basic_anonym_yn IN ('y', 'n')),
+    basic_erase_yn CHAR(4) NOT NULL DEFAULT 'n' COMMENT '삭제 여부' CHECK(basic_erase_yn IN ('y', 'n')),
+    basic_writer INTEGER NOT NULL COMMENT '작성자 ID',
+    FOREIGN KEY (basic_writer)
+	 REFERENCES MEMBER (member_id)
+);
+
+-- 취업 정보 게시판 테이블
+CREATE TABLE IF NOT EXISTS EMP_INFO_BOARD (
+    emp_id INTEGER AUTO_INCREMENT NOT NULL PRIMARY KEY COMMENT '취업 정보 게시글 ID', 
+    emp_title VARCHAR(255) NOT NULL COMMENT '게시글 제목',
+    emp_content VARCHAR(255) NOT NULL COMMENT '게시글 내용',
+    emp_date DATETIME NOT NULL COMMENT '작성 날짜',
+    emp_view INTEGER NOT NULL DEFAULT 0 COMMENT '조회수',
+    emp_anonym_yn CHAR(4) NOT NULL DEFAULT 'n' COMMENT '익명 여부' CHECK(emp_anonym_yn IN ('y', 'n')) ,
+    emp_erase_yn CHAR(4) NOT NULL DEFAULT 'n' COMMENT '삭제 여부' CHECK(emp_erase_yn IN ('y', 'n')) ,
+    emp_writer INTEGER NOT NULL COMMENT '작성자 ID',
+    FOREIGN KEY (emp_writer)
+    REFERENCES member(member_id)
+);
+
+-- 스터디 모집 게시판 테이블
+CREATE TABLE IF NOT EXISTS STUDY_BOARD (
+    study_id INTEGER AUTO_INCREMENT NOT NULL PRIMARY KEY COMMENT '스터디 모집 게시글 ID',
+    study_title VARCHAR(255) NOT NULL COMMENT '게시글 제목',
+    study_content VARCHAR(255) NOT NULL COMMENT '게시글 내용',
+    study_date DATETIME NOT NULL COMMENT '작성 날짜',
+    study_view INTEGER NOT NULL DEFAULT 0 COMMENT '조회수',
+    study_complete_yn CHAR(4) NOT NULL DEFAULT 'n' COMMENT '모집 완료 여부' CHECK(study_complete_yn IN ('y', 'n')),
+    study_erase_yn CHAR(4) NOT NULL DEFAULT 'n' COMMENT '삭제 여부' CHECK(study_erase_yn IN ('y', 'n')),
+    study_writer INTEGER NOT NULL COMMENT '작성자 ID',
+    FOREIGN KEY (study_writer)
+    REFERENCES member(member_id)
+);
+```
+  </details>
+
+<details>
+    <summary> 댓글 관련 테이블 </summary>
+      
+```sql
+-- 자유 게시글 댓글
+CREATE TABLE IF NOT EXISTS BASIC_CMT (
+    basic_cmt_id INTEGER AUTO_INCREMENT NOT NULL PRIMARY KEY COMMENT '댓글 ID',
+    basic_cmt_content VARCHAR(255) NOT NULL COMMENT '댓글 내용',
+    basic_cmt_date DATETIME NOT NULL COMMENT '작성 날짜',
+    basic_cmt_anonym_yn CHAR(4) DEFAULT 'n' COMMENT '익명 여부' CHECK(basic_cmt_anonym_yn IN ('y', 'n')),
+    basic_cmt_erase_yn CHAR(4) DEFAULT 'n' COMMENT '삭제 여부' CHECK(basic_cmt_erase_yn IN ('y', 'n')),
+    basic_post_id INTEGER NOT NULL COMMENT '자유게시글 ID',
+    basic_cmt_writer INTEGER NOT NULL COMMENT '댓글 작성자 ID',
+    ref_basic_cmt_id INTEGER COMMENT '대댓글용 참조 댓글 ID',
+    FOREIGN KEY (basic_post_id)
+    REFERENCES basic_board(basic_id),
+    FOREIGN KEY (basic_cmt_writer)
+    REFERENCES member(member_id),
+    FOREIGN KEY (ref_basic_cmt_id)
+    REFERENCES BASIC_CMT(basic_cmt_id)
+);
+
+-- 취업 정보 게시글 댓글
+CREATE TABLE IF NOT EXISTS EMP_INFO_CMT (
+    emp_cmt_id INTEGER AUTO_INCREMENT NOT NULL PRIMARY KEY COMMENT '댓글 ID',
+    emp_cmt_content VARCHAR(255) NOT NULL COMMENT '댓글 내용',
+    emp_cmt_date DATETIME NOT NULL COMMENT '작성 날짜',
+    emp_cmt_anonym_yn CHAR(4) DEFAULT 'n' COMMENT '익명 여부' CHECK(emp_cmt_anonym_yn IN ('y', 'n')),
+    emp_cmt_erase_yn CHAR(4) DEFAULT 'n' COMMENT '삭제 여부' CHECK(emp_cmt_erase_yn IN ('y', 'n')),
+    emp_post_id INTEGER NOT NULL COMMENT '취업 정보 게시글 id',
+    emp_cmt_writer INTEGER NOT NULL COMMENT '취업 정보 댓글 작성자',
+    ref_emp_cmt_id INTEGER COMMENT '대댓글용 참조 댓글 ID',
+    FOREIGN KEY (emp_post_id)
+    REFERENCES EMP_INFO_BOARD(emp_id),
+    FOREIGN KEY (emp_cmt_writer)
+    REFERENCES member(member_id),
+    FOREIGN KEY (ref_emp_cmt_id)
+    REFERENCES EMP_INFO_CMT(emp_cmt_id)
+);
+
+-- 스터디 모집 게시글 댓글
+CREATE TABLE IF NOT EXISTS STUDY_CMT (
+    study_cmt_id INTEGER AUTO_INCREMENT NOT NULL PRIMARY KEY COMMENT '스터디 모집 댓글 ID',
+    study_cmt_content VARCHAR(255) NOT NULL COMMENT ' 댓글 내용',
+    study_cmt_date DATETIME NOT NULL COMMENT '작성 날짜',
+    study_cmt_anonym_yn CHAR(4) NOT NULL DEFAULT 'n' COMMENT '익명 여부' CHECK(study_cmt_anonym_yn IN ('y', 'n')),
+    study_cmt_erase_yn CHAR(4) NOT NULL DEFAULT 'n' COMMENT '삭제 여부' CHECK(study_cmt_erase_yn IN ('y', 'n')),
+    study_post_id INTEGER NOT NULL COMMENT '스터디 모집 게시글 id',
+    study_cmt_writer INTEGER NOT NULL COMMENT '스터디 모집 댓글 작성자',
+    ref_study_cmt_id INTEGER COMMENT '대댓글용 참조 댓글 ID',
+    FOREIGN KEY (study_post_id)
+    REFERENCES STUDY_BOARD(study_id),
+    FOREIGN KEY (study_cmt_writer)
+    REFERENCES member(member_id),
+    FOREIGN KEY (ref_study_cmt_id)
+    REFERENCES STUDY_CMT(study_cmt_id)
+);
+```
+  </details>
+
+<details>
+    <summary> 북마크 테이블 </summary>
+      
+```sql
+CREATE TABLE IF NOT EXISTS BOOKMARK (
+    bookmark_id INTEGER AUTO_INCREMENT PRIMARY KEY NOT NULL COMMENT '북마크 ID',
+    member_id INTEGER NOT NULL COMMENT '회원 ID',
+    basic_bm_id INTEGER COMMENT '자유 게시글 ID',
+    emp_bm_id INTEGER COMMENT '취업 정보 게시글 ID',
+    study_bm_id INTEGER COMMENT '스터디 게시글 ID',
+    FOREIGN KEY (member_id)
+    REFERENCES member(member_id),
+	 FOREIGN KEY (basic_bm_id)
+    REFERENCES BASIC_BOARD(basic_id),
+    FOREIGN KEY (emp_bm_id)
+    REFERENCES EMP_INFO_BOARD(emp_id),
+    FOREIGN KEY (study_bm_id)
+    REFERENCES STUDY_BOARD(study_id)
+);
+```
+  </details>
+
+<details>
+    <summary> 파일 테이블 </summary>
+      
+```sql
+CREATE TABLE IF NOT EXISTS BASIC_UPLOAD_FILE (
+    basic_file_id INTEGER AUTO_INCREMENT NOT NULL PRIMARY KEY COMMENT '파일 ID',
+    basic_origin_file_name VARCHAR(255) NOT NULL COMMENT '원본 파일 이름',
+    basic_mdf_file_name VARCHAR(255) NOT NULL COMMENT '수정된 파일 이름',
+    basic_file_extension VARCHAR(255) NOT NULL COMMENT '파일 확장자',
+    basic_post_id INTEGER NOT NULL COMMENT '자유 게시글 ID',
+    FOREIGN KEY (basic_post_id)
+    REFERENCES BASIC_BOARD(basic_id)
+);
+```
+  </details>
+
+<details>
+    <summary> 신고 관련 테이블 </summary>
+      
+```sql
+-- 신고 사유 테이블
+CREATE TABLE IF NOT EXISTS REPORT_REASON (
+    rpt_reason_id INTEGER AUTO_INCREMENT PRIMARY KEY NOT NULL COMMENT '신고 사유 ID',
+    rpt_reason_content VARCHAR(255) NOT NULL COMMENT '신고 사유 내용'
+);
+
+-- 자유 게시판 신고 테이블
+CREATE TABLE IF NOT EXISTS BASIC_REPORT (
+    basic_rpt_id INTEGER AUTO_INCREMENT NOT NULL PRIMARY KEY COMMENT '신고 ID',
+    basic_rpt_date DATETIME NOT NULL COMMENT '신고 날짜',
+    basic_rpt_reason_id INTEGER NOT NULL COMMENT '신고 사유 ID',
+    basic_rpt_member_id INTEGER NOT NULL COMMENT '신고자 ID',
+    basic_post_id INTEGER NULL COMMENT '신고된 게시글 ID',
+    basic_cmt_id INTEGER NULL COMMENT '신고된 댓글 ID',
+    FOREIGN KEY (basic_rpt_reason_id)
+    REFERENCES report_reason(rpt_reason_id),
+    FOREIGN KEY (basic_rpt_member_id)
+    REFERENCES member(member_id),
+    FOREIGN KEY (basic_post_id)
+    REFERENCES basic_board(basic_id),
+    FOREIGN KEY (basic_cmt_id)
+    REFERENCES basic_cmt(basic_cmt_id)
+);
+
+-- 취업 정보 게시판 신고 테이블
+CREATE TABLE IF NOT EXISTS EMP_INFO_REPORT (
+    emp_rpt_id INTEGER AUTO_INCREMENT NOT NULL PRIMARY KEY COMMENT '신고 ID',
+    emp_rpt_date DATETIME NOT NULL COMMENT '신고 날짜',
+    emp_rpt_reason_id INTEGER NOT NULL COMMENT '신고 사유 ID',
+    emp_rpt_member_id INTEGER NOT NULL COMMENT '신고자 ID',
+    emp_post_id INTEGER NULL COMMENT '게시글 ID',
+    emp_cmt_id INTEGER NULL COMMENT '댓글 ID',
+	 FOREIGN KEY (emp_rpt_reason_id)
+    REFERENCES report_reason(rpt_reason_id),
+    FOREIGN KEY (emp_rpt_member_id)
+    REFERENCES member(member_id),
+    FOREIGN KEY (emp_post_id)
+    REFERENCES emp_info_board(emp_id),
+    FOREIGN KEY (emp_cmt_id)
+	 REFERENCES EMP_INFO_CMT(emp_cmt_id)
+);
+
+-- 스터디 모집 게시판 신고 테이블
+CREATE TABLE IF NOT EXISTS STUDY_REPORT (
+    study_rpt_id INTEGER AUTO_INCREMENT NOT NULL PRIMARY KEY COMMENT '신고 ID',
+    study_rpt_date DATETIME NOT NULL COMMENT '신고 날짜',
+    study_rpt_reason_id INTEGER NOT NULL COMMENT '신고 사유 ID',
+    study_rpt_member_id INTEGER NOT NULL COMMENT '신고자 ID',
+    study_post_id INTEGER NULL COMMENT '게시글 ID',
+    study_cmt_id INTEGER NULL COMMENT '댓글 ID',
+    FOREIGN KEY (study_rpt_reason_id)
+    REFERENCES report_reason(rpt_reason_id),
+    FOREIGN KEY (study_rpt_member_id)
+    REFERENCES member(member_id),
+    FOREIGN KEY (study_post_id)
+    REFERENCES study_board(study_id),
+    FOREIGN KEY (study_cmt_id)
+    REFERENCES study_cmt(study_cmt_id)
+);
+
+-- 블록리스트 테이
+CREATE TABLE IF NOT EXISTS BLOCKLIST (
+    blc_id INTEGER AUTO_INCREMENT NOT NULL PRIMARY KEY COMMENT '블록리스트 ID',
+    blc_date DATETIME NOT NULL COMMENT '블록 날짜',
+    blc_reason VARCHAR(255) NOT NULL COMMENT '블록 사유',
+    blc_action VARCHAR(255) NOT NULL COMMENT '조치 내역',
+    blc_member_id INTEGER NOT NULL COMMENT '블록 회원 ID',
+    FOREIGN KEY (blc_member_id)
+    REFERENCES member (member_id)
+);
+
+```
+  </details>
+
+<details>
+    <summary> 스터디 페이지 관련 테이블 </summary>
+      
+```sql
+-- 스터디 페이지 테이블
+CREATE TABLE IF NOT EXISTS STUDY_PAGE (
+    study_page_id INTEGER AUTO_INCREMENT NOT NULL PRIMARY KEY COMMENT '스터디 페이지 ID',
+    study_page_title VARCHAR(255) NOT NULL COMMENT '페이지 제목',
+    study_post_id INTEGER NOT NULL COMMENT '게시글 ID',
+    FOREIGN KEY (study_post_id)
+    REFERENCES study_board(study_id)
+);
+
+-- 스터디 별 참여자 테이블
+CREATE TABLE IF NOT EXISTS STUDY_PARTICIPANT (
+    study_page_id INTEGER NOT NULL COMMENT '스터디 페이지 ID',
+    study_ptcp_id INTEGER NOT NULL COMMENT '참가자 ID',
+    PRIMARY KEY(study_page_id, study_ptcp_id),
+    FOREIGN KEY (study_page_id)
+	 REFERENCES STUDY_PAGE (study_page_id),
+	 FOREIGN KEY (study_ptcp_id)
+	 REFERENCES member (member_id)
+);
+
+```
+  </details>
+
+<details>
+    <summary> 멘토링 관련 테이블 </summary>
+      
+```sql
+-- 멘토방 테이블
+CREATE TABLE IF NOT EXISTS MENTORING (
+    mtr_id INTEGER AUTO_INCREMENT NOT NULL PRIMARY KEY COMMENT '멘토방 ID',
+    mentor_id INTEGER NOT NULL COMMENT '멘토 ID',
+    FOREIGN KEY (mentor_id)
+    REFERENCES member(member_id)
+);
+
+-- 멘토방 별 멘티 테이블
+CREATE TABLE IF NOT EXISTS MENTEE_FROM_MENTORING (
+    mfr_id INTEGER NOT NULL COMMENT '멘토방 ID',
+    menti_id INTEGER NOT NULL COMMENT '멘티 ID',
+    mfr_accept_yn CHAR(4) NOT NULL DEFAULT 'n' COMMENT '멘토링 수락 여부' CHECK(mfr_accept_yn IN ('y', 'n')),
+    PRIMARY KEY(mfr_id, menti_id),
+    FOREIGN KEY (mfr_id)
+    REFERENCES MENTORING(mtr_id),
+    FOREIGN KEY (menti_id)
+    REFERENCES member(member_id)
+);
+```
+  </details>
+  
+<details>
+    <summary> 일정 관련 테이블 </summary>
+      
+```sql
+-- 개인 일정 테이블
+CREATE TABLE IF NOT EXISTS PERSONAL_SCHEDULE (
+    psn_schedule_id INTEGER AUTO_INCREMENT NOT NULL PRIMARY KEY COMMENT '개인 일정 ID',
+    psn_schedule_content VARCHAR(255) NOT NULL COMMENT '일정 내용',
+    psn_schedule_start_date DATETIME NOT NULL COMMENT '일정 시작 날짜',
+    psn_schedule_end_date DATETIME NOT NULL COMMENT '일정 종료 날짜',
+    psn_schedule_member_id INTEGER NOT NULL COMMENT '회원 ID',
+    FOREIGN KEY (psn_schedule_member_id)
+    REFERENCES member(member_id)
+);
+
+-- 공유 일정 테이블
+CREATE TABLE IF NOT EXISTS SHARED_SCHEDULE (
+    sh_schedule_id INTEGER AUTO_INCREMENT NOT NULL PRIMARY KEY COMMENT '공유 일정 ID',
+    sh_schedule_content VARCHAR(255) NOT NULL COMMENT '일정 내용',
+    sh_schedule_start_date DATETIME NOT NULL COMMENT '일정 시작 날짜',
+    sh_schedule_end_date DATETIME NOT NULL COMMENT '일정 종료 날짜',
+    cardinal_id INTEGER NOT NULL COMMENT '기수 ID',
+    FOREIGN KEY (cardinal_id)
+    REFERENCES CARDINAL(cardinal_id)
+);
+
+-- 멘토링 일정 테이블
+CREATE TABLE IF NOT EXISTS MENTOR_SCHEDULE (
+    mt_schedule_id INTEGER AUTO_INCREMENT NOT NULL PRIMARY KEY COMMENT '멘토 일정 ID',
+    mt_schedule_start_date DATETIME NOT NULL COMMENT '멘토링 시작 날짜',
+    mt_schedule_end_date DATETIME NOT NULL COMMENT '멘토링 종료 날짜',
+    mtr_id INTEGER NOT NULL COMMENT '멘토방 ID',
+    FOREIGN KEY (mtr_id)
+    REFERENCES MENTORING(mtr_id)
+);
+```
+  </details>
+  
+</details>
+<br>
 
 ## 🧲 Replication
-### about Replication
+### - Replicationd이란
+<img src = "https://github.com/beyond-SW-Camp-14th-5rE5/EveryBootCamp/blob/main/%ED%8C%8C%EC%9D%BC/PNG/Replication/replication.png?raw=true" width = "900"> </img> <br>
+MySQL 또는 MariaDB는 Replication을 제공합니다. <br> <br>
+Replication이란 DB를 복제하는 것으로 2대 이상의 DBMS를 master와 slave(또는 다중 slave) 구조로 나누어 <b>비동기 복제 방식으로 데이터를 저장하는 것</b>을 뜻합니다. <br> <br>
+master는 server-id를 1번으로 가지고 slave는 server-id를 2번 이상부터 가지게 되며 서로 고유하게 부여하여 작동 시켜야 합니다.
 
+### - Replication의 장점
+<pre>
+1. DB 서버의 부하를 분산시킬 수 있다.
+2. 데이터 백업이 실시간으로 이루어진다.
+</pre>
+> <b>master 서버</b><br>: 데이터의 변경에 대한 처리를 담당하며 변경 발생시 binary log에 기록하고 slave 서버로 전달한다. <br> <br>
+> <b>slave 서버</b><br>: master 서버로부터 전달 받은 binary log를 통해 DB에 반영하고 조회의 부담을 담당한다. <br> <br>
+> <b>binary log</b><br>: DB에서 발생하는 모든 내역이 기록되는 파일로 default는 비활성이지만 활성화 시켜 활용할 수 있다. <br>
 
-<br>
+### - master-slave 연동
+<img src = "https://github.com/beyond-SW-Camp-14th-5rE5/EveryBootCamp/blob/main/%ED%8C%8C%EC%9D%BC/PNG/master_slave%20%EC%97%B0%EB%8F%99%20%ED%99%94%EB%A9%B4.png?raw=true" width="600"> </img> <br>
+
+### - heidiSQL에 master-slave 연동
+<img src = "https://github.com/beyond-SW-Camp-14th-5rE5/EveryBootCamp/blob/main/%ED%8C%8C%EC%9D%BC/PNG/heidiSQL%20master,%20slave%20%EC%84%9C%EB%B2%84%20%EC%97%B0%EB%8F%99.png?raw=true" width="600"> </img> <br>
+
+### - master-slave 동기화
+<img src = "https://github.com/beyond-SW-Camp-14th-5rE5/EveryBootCamp/blob/main/%ED%8C%8C%EC%9D%BC/GIF/Server/master_slave_db_%EC%83%9D%EC%84%B1.gif?raw=true" width="600"> </img> <br>
+    
+### - slave에서 read-only 옵션 확인
+<img src = "https://github.com/beyond-SW-Camp-14th-5rE5/EveryBootCamp/blob/main/%ED%8C%8C%EC%9D%BC/GIF/Server/slave_read_only_%EC%98%B5%EC%85%98_%ED%99%95%EC%9D%B8.gif?raw=true" width="600"> </img> <br>
 
 
 ## 💡 TEST CASE 정의서
 
 🔗 <a href="https://docs.google.com/spreadsheets/d/1t4HdLfTOnScKb9n-gGkM4NVxvhieuCJ2Qb8384PqUuM/edit?gid=1861502503#gid=1861502503"> 테스트케이스 정의서 자세히 보기 </a>
 
-<img src = "https://github.com/beyond-SW-Camp-14th-5rE5/EveryBootCamp/blob/main/%ED%8C%8C%EC%9D%BC/PNG/%ED%85%8C%EC%8A%A4%ED%8A%B8%EC%BC%80%EC%9D%B4%EC%8A%A4%20%EC%A0%95%EC%9D%98%EC%84%9C/%ED%85%8C%EC%8A%A4%ED%8A%B8%EC%BC%80%EC%9D%B4%EC%8A%A4%20%EC%A0%95%EC%9D%98%EC%84%9C.png?raw=true" width = "900"> </img> <br>
+<img src = "https://github.com/beyond-SW-Camp-14th-5rE5/EveryBootCamp/blob/main/%ED%8C%8C%EC%9D%BC/PNG/%ED%85%8C%EC%8A%A4%ED%8A%B8%EC%BC%80%EC%9D%B4%EC%8A%A4%20%EC%A0%95%EC%9D%98%EC%84%9C/%ED%85%8C%EC%8A%A4%ED%8A%B8%EC%BC%80%EC%9D%B4%EC%8A%A4%20%EC%A0%95%EC%9D%98%EC%84%9C.png?raw=true" width = "100%"> </img> <br>
 
 ## 💡 TEST CASE 시연
 ### 🎈 QUERY
