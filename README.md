@@ -98,7 +98,7 @@
 
 ## 🪄 DDL
 <details>
-    <summary> 데이터베이스 생성 </summary>
+    <summary><b>데이터베이스 생성</b></summary>
     
 ```sql
 CREATE DATABASE everybootcamp;
@@ -107,7 +107,7 @@ CREATE DATABASE everybootcamp;
 
 
 <details>
-    <summary> 테이블 생성 </summary>
+    <summary><b>테이블 생성</b></summary>
   <details>
     <summary> 회원 관련 테이블 </summary>
       
@@ -578,8 +578,6 @@ master는 server-id를 1번으로 가지고 slave는 server-id를 2번 이상부
   </details>
 </details>
 
------
-
 <details>
   <summary> <b>🗒️ 자유게시판</b></summary>
   <details><summary> 자유 게시글 목록</summary>
@@ -619,8 +617,6 @@ master는 server-id를 1번으로 가지고 slave는 server-id를 2번 이상부
     <img src = "https://github.com/beyond-SW-Camp-14th-5rE5/EveryBootCamp/blob/main/%ED%8C%8C%EC%9D%BC/GIF/%EC%9E%90%EC%9C%A0%20%EA%B2%8C%EC%8B%9C%ED%8C%90/TEST-029_%EC%9E%90%EC%9C%A0%20%EA%B2%8C%EC%8B%9C%EA%B8%80%20%EB%8C%93%EA%B8%80%20%EC%8B%A0%EA%B3%A0.gif?raw=true", width="600"> </img>
   </details>
 </details>
-
------
 
 <details>
   <summary><b>💼 취업 정보 게시판</b></summary>
@@ -668,8 +664,6 @@ master는 server-id를 1번으로 가지고 slave는 server-id를 2번 이상부
   </details>
 </details>
 
------
-
 <details>
   <summary><b>👥 멘토링</b></summary>
   <details><summary> 멘토링 등록</summary>
@@ -695,10 +689,8 @@ master는 server-id를 1번으로 가지고 slave는 server-id를 2번 이상부
   </details>
  </details>
 
----
-
 <details>
-  <summary><b>📖 스터디 모집 게시판 </summary>
+  <summary><b>📖 스터디 모집 게시판</b> </summary>
   <details><summary> 스터디 모집 게시글 목록 조회</summary>
     <img src = "https://github.com/beyond-SW-Camp-14th-5rE5/EveryBootCamp/blob/main/%ED%8C%8C%EC%9D%BC/GIF/%EC%8A%A4%ED%84%B0%EB%94%94%20%EB%AA%A8%EC%A7%91%20%EA%B2%8C%EC%8B%9C%ED%8C%90/TEST-032_%EC%8A%A4%ED%84%B0%EB%94%94%20%EB%AA%A8%EC%A7%91%20%EA%B2%8C%EC%8B%9C%EA%B8%80%20%EB%AA%A9%EB%A1%9D%20%EC%A1%B0%ED%9A%8C.gif?raw=true", width="600"> </img>
   </details>
@@ -745,8 +737,6 @@ master는 server-id를 1번으로 가지고 slave는 server-id를 2번 이상부
     <img src = "https://github.com/beyond-SW-Camp-14th-5rE5/EveryBootCamp/blob/main/%ED%8C%8C%EC%9D%BC/GIF/%EC%8A%A4%ED%84%B0%EB%94%94%20%EB%AA%A8%EC%A7%91%20%EA%B2%8C%EC%8B%9C%ED%8C%90/TEST-047_%EC%8A%A4%ED%84%B0%EB%94%94%20%EA%B2%8C%EC%8B%9C%EA%B8%80%20%EB%8C%93%EA%B8%80%20%EC%82%AD%EC%A0%9C.gif?raw=true", width="600"> </img>
   </details>
 </details>
-
----
 
 <details>
 <summary><b>🗓️ 일정</b></summary>
@@ -821,59 +811,45 @@ master는 server-id를 1번으로 가지고 slave는 server-id를 2번 이상부
   </details>
 </details>
 
----
 
 ### 🎈 TRIGGER
 <details>
-  <summary>자유 게시글 파일 테이블에 파일 추가 시 게시글에 파일 첨부 표시</summary>
+  <summary><b>자유 게시글 파일 테이블에 파일 추가 시 게시글에 파일 첨부 표시</b></summary>
     <img src = "https://github.com/beyond-SW-Camp-14th-5rE5/EveryBootCamp/blob/main/%ED%8C%8C%EC%9D%BC/GIF/Object/trigger_basic_file.gif?raw=true", width="600"> </img>
 </details>
 
----
-
 <details>
-  <summary>신고 5번 누적 시 블락리스트 추가</summary>
+  <summary><b>신고 5번 누적 시 블락리스트 추가</b></summary>
     <img src = "https://github.com/beyond-SW-Camp-14th-5rE5/EveryBootCamp/blob/main/%ED%8C%8C%EC%9D%BC/GIF/Object/trigger_block_insert_basic.gif?raw=true", width="600"> </img>
 </details>
 
----
-
 ### 🎈 INDEX
   <details>
-	  <summary>게시판 인덱스</summary>
+	  <summary><b>게시판 인덱스</b></summary>
     <img src = "https://github.com/beyond-SW-Camp-14th-5rE5/EveryBootCamp/blob/main/%ED%8C%8C%EC%9D%BC/GIF/Object/index.gif?raw=true", width="600"> </img>
   </details>
 
----
-
 ### 🎈 PROCEDURE
   <details>
-	  <summary>게시글 조회 시 조회수 1 증가</summary>
+	  <summary><b>게시글 조회 시 조회수 1 증가</b></summary>
     <img src = "https://github.com/beyond-SW-Camp-14th-5rE5/EveryBootCamp/blob/main/%ED%8C%8C%EC%9D%BC/GIF/Object/procedure_view_increase_basic.gif?raw=true", width="600"> </img>
   </details>
 
----
-
 ### 🎈 CONSTRAINTS
 <details>
-  <summary>NOT NULL</summary>
+  <summary><b>NOT NULL</b></summary>
     <img src = "", width="600"> </img>
 </details>
-
----
 
 <details>
-  <summary>CHECK</summary>
+  <summary><b>CHECK</b></summary>
     <img src = "", width="600"> </img>
 </details>
 
----
 <details>
-  <summary>DATA TYPE</summary>
+  <summary><b>DATA TYPE</b></summary>
     <img src = "", width="600"> </img>
 </details>
-
----
 
 <br>
 
@@ -881,6 +857,7 @@ master는 server-id를 1번으로 가지고 slave는 server-id를 2번 이상부
 
 `#도서 대여 시스템 구축` `#코딩 문제 풀이 게시판` `#맛집 추천 기능` `#쪽지 시스템` `#스터디별 일정 캘린더 통합` `#스터디 공간 예약 시스템` `#게시판 내 MBTI 뱃지 표시`
 
+<br>
 # 🍪 동료 평가
 ### 강수지
 
