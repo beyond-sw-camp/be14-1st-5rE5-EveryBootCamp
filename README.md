@@ -76,7 +76,7 @@
 
 🔗 <a href="https://docs.google.com/spreadsheets/d/1t4HdLfTOnScKb9n-gGkM4NVxvhieuCJ2Qb8384PqUuM/edit?gid=2141089571#gid=2141089571"> 구조 자세히 보기 </a>
 
-<img src = "https://github.com/beyond-SW-Camp-14th-5rE5/EveryBootCamp/blob/main/%ED%8C%8C%EC%9D%BC/PNG/%EA%B5%AC%EC%A1%B0/%EA%B5%AC%EC%A1%B0.png?raw=true" width = "500"> </img> <br>
+<img src = "https://i.ibb.co/Gx6wDyF/image.png" width = "500"> </img> <br>
 
 #### 전체 구조
 <img src = "https://github.com/beyond-SW-Camp-14th-5rE5/EveryBootCamp/blob/main/%ED%8C%8C%EC%9D%BC/PNG/%EB%AC%BC%EB%A6%AC%EB%AA%A8%EB%8D%B8%EB%A7%81/%EB%AC%BC%EB%A6%AC%EB%AA%A8%EB%8D%B8%EB%A7%81.png?raw=true" width = "700"> </img> <br>
