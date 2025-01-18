@@ -578,7 +578,7 @@ master는 server-id를 1번으로 가지고 slave는 server-id를 2번 이상부
   </details>
 </details>
 
----
+-----
 
 <details>
   <summary> <b>🗒️ 자유게시판</b></summary>
@@ -620,17 +620,278 @@ master는 server-id를 1번으로 가지고 slave는 server-id를 2번 이상부
   </details>
 </details>
 
+-----
+
+<details>
+  <summary><b>💼 취업 정보 게시판</b></summary>
+  <details><summary>취업 정보 게시글 목록 조회</summary>
+    <img src = "https://github.com/beyond-SW-Camp-14th-5rE5/EveryBootCamp/blob/main/%ED%8C%8C%EC%9D%BC/GIF/%EC%B7%A8%EC%97%85%20%EC%A0%95%EB%B3%B4%20%EA%B2%8C%EC%8B%9C%ED%8C%90/TEST-048_%EC%B7%A8%EC%97%85%20%EC%A0%95%EB%B3%B4%20%EA%B2%8C%EC%8B%9C%EA%B8%80%20%EB%AA%A9%EB%A1%9D%20%EC%A1%B0%ED%9A%8C.gif?raw=true", width="600"> </img>
+  </details>
+  <details><summary>취업 정보 게시글 조회</summary>
+    <img src = "https://github.com/beyond-SW-Camp-14th-5rE5/EveryBootCamp/blob/main/%ED%8C%8C%EC%9D%BC/GIF/%EC%B7%A8%EC%97%85%20%EC%A0%95%EB%B3%B4%20%EA%B2%8C%EC%8B%9C%ED%8C%90/TEST-049_%EC%B7%A8%EC%97%85%20%EC%A0%95%EB%B3%B4%20%EA%B2%8C%EC%8B%9C%EA%B8%80%20%EC%A1%B0%ED%9A%8C.gif?raw=true", width="600"> </img>
+  </details>
+  <details><summary>취업 정보 게시글 작성</summary>
+    <img src = "https://github.com/beyond-SW-Camp-14th-5rE5/EveryBootCamp/blob/main/%ED%8C%8C%EC%9D%BC/GIF/%EC%B7%A8%EC%97%85%20%EC%A0%95%EB%B3%B4%20%EA%B2%8C%EC%8B%9C%ED%8C%90/TEST-050_%EC%B7%A8%EC%97%85%20%EC%A0%95%EB%B3%B4%20%EA%B2%8C%EC%8B%9C%EA%B8%80%20%EC%9E%91%EC%84%B1.gif?raw=true", width="600"> </img>
+  </details>
+  <details><summary>취업 정보 게시글 수정</summary>
+    <img src = "https://github.com/beyond-SW-Camp-14th-5rE5/EveryBootCamp/blob/main/%ED%8C%8C%EC%9D%BC/GIF/%EC%B7%A8%EC%97%85%20%EC%A0%95%EB%B3%B4%20%EA%B2%8C%EC%8B%9C%ED%8C%90/TEST-051_%EC%B7%A8%EC%97%85%20%EC%A0%95%EB%B3%B4%20%EA%B2%8C%EC%8B%9C%EA%B8%80%20%EC%88%98%EC%A0%95.gif?raw=true", width="600"> </img>
+  </details>
+  <details><summary>취업 정보 게시글 삭제</summary>
+    <img src = "https://github.com/beyond-SW-Camp-14th-5rE5/EveryBootCamp/blob/main/%ED%8C%8C%EC%9D%BC/GIF/%EC%B7%A8%EC%97%85%20%EC%A0%95%EB%B3%B4%20%EA%B2%8C%EC%8B%9C%ED%8C%90/TEST-052_%EC%B7%A8%EC%97%85%20%EC%A0%95%EB%B3%B4%20%EA%B2%8C%EC%8B%9C%EA%B8%80%20%EC%82%AD%EC%A0%9C.gif?raw=true", width="600"> </img>
+  </details>
+  <details><summary>취업 정보 게시글 검색</summary>
+    <img src = "https://github.com/beyond-SW-Camp-14th-5rE5/EveryBootCamp/blob/main/%ED%8C%8C%EC%9D%BC/GIF/%EC%B7%A8%EC%97%85%20%EC%A0%95%EB%B3%B4%20%EA%B2%8C%EC%8B%9C%ED%8C%90/TEST-053_%EC%B7%A8%EC%97%85%20%EC%A0%95%EB%B3%B4%20%EA%B2%8C%EC%8B%9C%EA%B8%80%20%EA%B2%80%EC%83%89.gif?raw=true", width="600"> </img>
+  </details>
+  <details><summary>취업 정보 게시글 북마크 등록</summary>
+    <img src = "https://github.com/beyond-SW-Camp-14th-5rE5/EveryBootCamp/blob/main/%ED%8C%8C%EC%9D%BC/GIF/%EC%B7%A8%EC%97%85%20%EC%A0%95%EB%B3%B4%20%EA%B2%8C%EC%8B%9C%ED%8C%90/TEST-054_%EC%B7%A8%EC%97%85%20%EC%A0%95%EB%B3%B4%20%EA%B2%8C%EC%8B%9C%EA%B8%80%20%EB%B6%81%EB%A7%88%ED%81%AC%20%EB%93%B1%EB%A1%9D.gif?raw=true", width="600"> </img>
+  </details>
+  <details><summary>취업 정보 게시글 북마크 삭제</summary>
+    <img src = "https://github.com/beyond-SW-Camp-14th-5rE5/EveryBootCamp/blob/main/%ED%8C%8C%EC%9D%BC/GIF/%EC%B7%A8%EC%97%85%20%EC%A0%95%EB%B3%B4%20%EA%B2%8C%EC%8B%9C%ED%8C%90/TEST-055_%EC%B7%A8%EC%97%85%20%EC%A0%95%EB%B3%B4%20%EA%B2%8C%EC%8B%9C%EA%B8%80%20%EB%B6%81%EB%A7%88%ED%81%AC%20%EC%82%AD%EC%A0%9C.gif?raw=true", width="600"> </img>
+  </details>
+  <details><summary>취업 정보 게시글 댓글 작성</summary>
+    <img src = "https://github.com/beyond-SW-Camp-14th-5rE5/EveryBootCamp/blob/main/%ED%8C%8C%EC%9D%BC/GIF/%EC%B7%A8%EC%97%85%20%EC%A0%95%EB%B3%B4%20%EA%B2%8C%EC%8B%9C%ED%8C%90/TEST-056_%EC%B7%A8%EC%97%85%20%EC%A0%95%EB%B3%B4%20%EA%B2%8C%EC%8B%9C%EA%B8%80%20%EB%8C%93%EA%B8%80%20%EC%9E%91%EC%84%B1.gif?raw=true", width="600"> </img>
+  </details>
+  <details><summary>취업 정보 게시글 댓글 목록 조회</summary>
+    <img src = "https://github.com/beyond-SW-Camp-14th-5rE5/EveryBootCamp/blob/main/%ED%8C%8C%EC%9D%BC/GIF/%EC%B7%A8%EC%97%85%20%EC%A0%95%EB%B3%B4%20%EA%B2%8C%EC%8B%9C%ED%8C%90/TEST-057_%EC%B7%A8%EC%97%85%20%EC%A0%95%EB%B3%B4%20%EA%B2%8C%EC%8B%9C%EA%B8%80%20%EB%8C%93%EA%B8%80%20%EB%AA%A9%EB%A1%9D%20%EC%A1%B0%ED%9A%8C.gif?raw=true", width="600"> </img>
+  </details>
+  <details><summary>취업 정보 게시글 댓글 수정</summary>
+    <img src = "https://github.com/beyond-SW-Camp-14th-5rE5/EveryBootCamp/blob/main/%ED%8C%8C%EC%9D%BC/GIF/%EC%B7%A8%EC%97%85%20%EC%A0%95%EB%B3%B4%20%EA%B2%8C%EC%8B%9C%ED%8C%90/TEST-058_%EC%B7%A8%EC%97%85%20%EC%A0%95%EB%B3%B4%20%EA%B2%8C%EC%8B%9C%EA%B8%80%20%EB%8C%93%EA%B8%80%20%EC%88%98%EC%A0%95.gif?raw=true", width="600"> </img>
+  </details>
+  <details><summary>취업 정보 게시글 댓글 삭제</summary>
+    <img src = "https://github.com/beyond-SW-Camp-14th-5rE5/EveryBootCamp/blob/main/%ED%8C%8C%EC%9D%BC/GIF/%EC%B7%A8%EC%97%85%20%EC%A0%95%EB%B3%B4%20%EA%B2%8C%EC%8B%9C%ED%8C%90/TEST-059_%EC%B7%A8%EC%97%85%20%EC%A0%95%EB%B3%B4%20%EA%B2%8C%EC%8B%9C%EA%B8%80%20%EB%8C%93%EA%B8%80%20%EC%82%AD%EC%A0%9C.gif?raw=true", width="600"> </img>
+  </details>
+  <details><summary>취업 정보 게시글 신고</summary>
+    <img src = "https://github.com/beyond-SW-Camp-14th-5rE5/EveryBootCamp/blob/main/%ED%8C%8C%EC%9D%BC/GIF/%EC%B7%A8%EC%97%85%20%EC%A0%95%EB%B3%B4%20%EA%B2%8C%EC%8B%9C%ED%8C%90/TEST-060_%EC%B7%A8%EC%97%85%20%EC%A0%95%EB%B3%B4%20%EA%B2%8C%EC%8B%9C%EA%B8%80%20%EC%8B%A0%EA%B3%A0.gif?raw=true", width="600"> </img>
+  </details>
+  <details><summary>취업 정보 게시글 댓글 신고</summary>
+    <img src = "https://github.com/beyond-SW-Camp-14th-5rE5/EveryBootCamp/blob/main/%ED%8C%8C%EC%9D%BC/GIF/%EC%B7%A8%EC%97%85%20%EC%A0%95%EB%B3%B4%20%EA%B2%8C%EC%8B%9C%ED%8C%90/TEST-061_%EC%B7%A8%EC%97%85%20%EC%A0%95%EB%B3%B4%20%EA%B2%8C%EC%8B%9C%EA%B8%80%20%EB%8C%93%EA%B8%80%20%EC%8B%A0%EA%B3%A0.gif?raw=true", width="600"> </img>
+  </details>
+</details>
+
+-----
+
+<details>
+  <summary><b>👥 멘토링</b></summary>
+  <details><summary> 멘토링 등록</summary>
+    <img src = "https://github.com/beyond-SW-Camp-14th-5rE5/EveryBootCamp/blob/main/%ED%8C%8C%EC%9D%BC/GIF/%EB%A9%98%ED%86%A0%EB%A7%81/TEST-062_%EB%A9%98%ED%86%A0%EB%A7%81%20%EB%93%B1%EB%A1%9D.gif?raw=true", width="600"> </img>
+  </details>
+  <details><summary> 멘토링 목록</summary>
+    <img src = "https://github.com/beyond-SW-Camp-14th-5rE5/EveryBootCamp/blob/main/%ED%8C%8C%EC%9D%BC/GIF/%EB%A9%98%ED%86%A0%EB%A7%81/TEST-063_%EB%A9%98%ED%86%A0%EB%B0%A9%20%EB%AA%A9%EB%A1%9D.gif?raw=true", width="600"> </img>
+  </details>
+  <details><summary> 멘토링 조회</summary>
+    <img src = "https://github.com/beyond-SW-Camp-14th-5rE5/EveryBootCamp/blob/main/%ED%8C%8C%EC%9D%BC/GIF/%EB%A9%98%ED%86%A0%EB%A7%81/TEST-064_%EB%A9%98%ED%86%A0%EB%B0%A9%20%EC%A1%B0%ED%9A%8C.gif?raw=true", width="600"> </img>
+  </details>
+  <details><summary> 멘토링 신청</summary>
+    <img src = "https://github.com/beyond-SW-Camp-14th-5rE5/EveryBootCamp/blob/main/%ED%8C%8C%EC%9D%BC/GIF/%EB%A9%98%ED%86%A0%EB%A7%81/TEST-065_%EB%A9%98%ED%86%A0%EB%A7%81%20%EC%8B%A0%EC%B2%AD.gif?raw=true", width="600"> </img>
+  </details>
+  <details><summary> 멘토링 요청 수락</summary>
+    <img src = "https://github.com/beyond-SW-Camp-14th-5rE5/EveryBootCamp/blob/main/%ED%8C%8C%EC%9D%BC/GIF/%EB%A9%98%ED%86%A0%EB%A7%81/TEST-066_%EB%A9%98%ED%86%A0%EB%A7%81%20%EC%9A%94%EC%B2%AD%20%EC%88%98%EB%9D%BD.gif?raw=true", width="600"> </img>
+  </details>
+  <details><summary> 멘토링 취소</summary>
+    <img src = "https://github.com/beyond-SW-Camp-14th-5rE5/EveryBootCamp/blob/main/%ED%8C%8C%EC%9D%BC/GIF/%EB%A9%98%ED%86%A0%EB%A7%81/TEST-067_%EB%A9%98%ED%86%A0%EB%A7%81%20%EC%B7%A8%EC%86%8C.gif?raw=true", width="600"> </img>
+  </details>
+  <details><summary> 멘토링 삭제</summary>
+    <img src = "https://github.com/beyond-SW-Camp-14th-5rE5/EveryBootCamp/blob/main/%ED%8C%8C%EC%9D%BC/GIF/%EB%A9%98%ED%86%A0%EB%A7%81/TEST-068_%EB%A9%98%ED%86%A0%EB%A7%81%20%EC%82%AD%EC%A0%9C.gif?raw=true", width="600"> </img>
+  </details>
+ </details>
+
+---
+
+<details>
+  <summary><b>📖 스터디 모집 게시판 </summary>
+  <details><summary> 스터디 모집 게시글 목록 조회</summary>
+    <img src = "https://github.com/beyond-SW-Camp-14th-5rE5/EveryBootCamp/blob/main/%ED%8C%8C%EC%9D%BC/GIF/%EC%8A%A4%ED%84%B0%EB%94%94%20%EB%AA%A8%EC%A7%91%20%EA%B2%8C%EC%8B%9C%ED%8C%90/TEST-032_%EC%8A%A4%ED%84%B0%EB%94%94%20%EB%AA%A8%EC%A7%91%20%EA%B2%8C%EC%8B%9C%EA%B8%80%20%EB%AA%A9%EB%A1%9D%20%EC%A1%B0%ED%9A%8C.gif?raw=true", width="600"> </img>
+  </details>
+  <details><summary> 스터디 모집 게시글 조회</summary>
+    <img src = "https://github.com/beyond-SW-Camp-14th-5rE5/EveryBootCamp/blob/main/%ED%8C%8C%EC%9D%BC/GIF/%EC%8A%A4%ED%84%B0%EB%94%94%20%EB%AA%A8%EC%A7%91%20%EA%B2%8C%EC%8B%9C%ED%8C%90/TEST-033_%EC%8A%A4%ED%84%B0%EB%94%94%20%EB%AA%A8%EC%A7%91%20%EA%B2%8C%EC%8B%9C%EA%B8%80%20%EC%A1%B0%ED%9A%8C.gif?raw=true", width="600"> </img>
+  </details>
+  <details><summary> 스터디 모집 게시글 작성</summary>
+    <img src = "https://github.com/beyond-SW-Camp-14th-5rE5/EveryBootCamp/blob/main/%ED%8C%8C%EC%9D%BC/GIF/%EC%8A%A4%ED%84%B0%EB%94%94%20%EB%AA%A8%EC%A7%91%20%EA%B2%8C%EC%8B%9C%ED%8C%90/TEST-034_%EC%8A%A4%ED%84%B0%EB%94%94%20%EB%AA%A8%EC%A7%91%20%EA%B2%8C%EC%8B%9C%EA%B8%80%20%EC%9E%91%EC%84%B1.gif?raw=true", width="600"> </img>
+  </details>
+  <details><summary> 스터디 모집 게시글 삭제</summary>
+    <img src = "https://github.com/beyond-SW-Camp-14th-5rE5/EveryBootCamp/blob/main/%ED%8C%8C%EC%9D%BC/GIF/%EC%8A%A4%ED%84%B0%EB%94%94%20%EB%AA%A8%EC%A7%91%20%EA%B2%8C%EC%8B%9C%ED%8C%90/TEST-035_%EC%8A%A4%ED%84%B0%EB%94%94%20%EB%AA%A8%EC%A7%91%20%EA%B2%8C%EC%8B%9C%EA%B8%80%20%EC%82%AD%EC%A0%9C.gif?raw=true", width="600"> </img>
+  </details>
+  <details><summary> 스터디 모집 게시글 수정</summary>
+    <img src = "https://github.com/beyond-SW-Camp-14th-5rE5/EveryBootCamp/blob/main/%ED%8C%8C%EC%9D%BC/GIF/%EC%8A%A4%ED%84%B0%EB%94%94%20%EB%AA%A8%EC%A7%91%20%EA%B2%8C%EC%8B%9C%ED%8C%90/TEST-036_%EC%8A%A4%ED%84%B0%EB%94%94%20%EB%AA%A8%EC%A7%91%20%EA%B2%8C%EC%8B%9C%EA%B8%80%20%EC%88%98%EC%A0%95.gif?raw=true", width="600"> </img>
+  </details>
+  <details><summary> 스터디 모집 게시글 검색</summary>
+    <img src = "https://github.com/beyond-SW-Camp-14th-5rE5/EveryBootCamp/blob/main/%ED%8C%8C%EC%9D%BC/GIF/%EC%8A%A4%ED%84%B0%EB%94%94%20%EB%AA%A8%EC%A7%91%20%EA%B2%8C%EC%8B%9C%ED%8C%90/TEST-037_%EC%8A%A4%ED%84%B0%EB%94%94%20%EB%AA%A8%EC%A7%91%20%EA%B2%8C%EC%8B%9C%EA%B8%80%20%EA%B2%80%EC%83%89.gif?raw=true", width="600"> </img>
+  </details>
+  <details><summary> 스터디 페이지 개설</summary>
+    <img src = "https://github.com/beyond-SW-Camp-14th-5rE5/EveryBootCamp/blob/main/%ED%8C%8C%EC%9D%BC/GIF/%EC%8A%A4%ED%84%B0%EB%94%94%20%EB%AA%A8%EC%A7%91%20%EA%B2%8C%EC%8B%9C%ED%8C%90/TEST-038_%EC%8A%A4%ED%84%B0%EB%94%94%20%ED%8E%98%EC%9D%B4%EC%A7%80%20%EA%B0%9C%EC%84%A4.gif?raw=true", width="600"> </img>
+  </details>
+  <details><summary> 스터디 요청 수락</summary>
+    <img src = "https://github.com/beyond-SW-Camp-14th-5rE5/EveryBootCamp/blob/main/%ED%8C%8C%EC%9D%BC/GIF/%EC%8A%A4%ED%84%B0%EB%94%94%20%EB%AA%A8%EC%A7%91%20%EA%B2%8C%EC%8B%9C%ED%8C%90/TEST-039_%EC%8A%A4%ED%84%B0%EB%94%94%20%EC%9A%94%EC%B2%AD%20%EC%88%98%EB%9D%BD.gif?raw=true", width="600"> </img>
+  </details>
+  <details><summary> 스터디 마감 설정</summary>
+    <img src = "https://github.com/beyond-SW-Camp-14th-5rE5/EveryBootCamp/blob/main/%ED%8C%8C%EC%9D%BC/GIF/%EC%8A%A4%ED%84%B0%EB%94%94%20%EB%AA%A8%EC%A7%91%20%EA%B2%8C%EC%8B%9C%ED%8C%90/TEST-041_%EC%8A%A4%ED%84%B0%EB%94%94%20%EB%A7%88%EA%B0%90%20%EC%84%A4%EC%A0%95.gif?raw=true", width="600"> </img>
+  </details>
+  <details><summary> 스터디 모집 게시글 신고</summary>
+    <img src = "https://github.com/beyond-SW-Camp-14th-5rE5/EveryBootCamp/blob/main/%ED%8C%8C%EC%9D%BC/GIF/%EC%8A%A4%ED%84%B0%EB%94%94%20%EB%AA%A8%EC%A7%91%20%EA%B2%8C%EC%8B%9C%ED%8C%90/TEST-042_%EC%8A%A4%ED%84%B0%EB%94%94%20%EA%B2%8C%EC%8B%9C%EA%B8%80%20%EC%8B%A0%EA%B3%A0.gif?raw=true", width="600"> </img>
+  </details>
+  <details><summary> 스터디 모집 게시글 댓글 신고</summary>
+    <img src = "https://github.com/beyond-SW-Camp-14th-5rE5/EveryBootCamp/blob/main/%ED%8C%8C%EC%9D%BC/GIF/%EC%8A%A4%ED%84%B0%EB%94%94%20%EB%AA%A8%EC%A7%91%20%EA%B2%8C%EC%8B%9C%ED%8C%90/TEST-043_%EC%8A%A4%ED%84%B0%EB%94%94%20%EA%B2%8C%EC%8B%9C%EA%B8%80%20%EB%8C%93%EA%B8%80%20%EC%8B%A0%EA%B3%A0.gif?raw=true", width="600"> </img>
+  </details>
+  <details><summary> 스터디 모집 게시글 댓글 작성</summary>
+    <img src = "https://github.com/beyond-SW-Camp-14th-5rE5/EveryBootCamp/blob/main/%ED%8C%8C%EC%9D%BC/GIF/%EC%8A%A4%ED%84%B0%EB%94%94%20%EB%AA%A8%EC%A7%91%20%EA%B2%8C%EC%8B%9C%ED%8C%90/TEST-044_%EC%8A%A4%ED%84%B0%EB%94%94%20%EA%B2%8C%EC%8B%9C%EA%B8%80%20%EB%8C%93%EA%B8%80%20%EC%9E%91%EC%84%B1.gif?raw=true", width="600"> </img>
+  </details>
+  <details><summary> 스터디 모집 게시글 댓글 목록 조회</summary>
+    <img src = "https://github.com/beyond-SW-Camp-14th-5rE5/EveryBootCamp/blob/main/%ED%8C%8C%EC%9D%BC/GIF/%EC%8A%A4%ED%84%B0%EB%94%94%20%EB%AA%A8%EC%A7%91%20%EA%B2%8C%EC%8B%9C%ED%8C%90/TEST-045_%EC%8A%A4%ED%84%B0%EB%94%94%20%EA%B2%8C%EC%8B%9C%EA%B8%80%20%EB%8C%93%EA%B8%80%20%EB%AA%A9%EB%A1%9D%20%EC%A1%B0%ED%9A%8C.gif?raw=true", width="600"> </img>
+  </details>
+  <details><summary> 스터디 모집 게시글 댓글 수정</summary>
+    <img src = "https://github.com/beyond-SW-Camp-14th-5rE5/EveryBootCamp/blob/main/%ED%8C%8C%EC%9D%BC/GIF/%EC%8A%A4%ED%84%B0%EB%94%94%20%EB%AA%A8%EC%A7%91%20%EA%B2%8C%EC%8B%9C%ED%8C%90/TEST-046_%EC%8A%A4%ED%84%B0%EB%94%94%20%EA%B2%8C%EC%8B%9C%EA%B8%80%20%EB%8C%93%EA%B8%80%20%EC%88%98%EC%A0%95.gif?raw=true", width="600"> </img>
+  </details>
+  <details><summary> 스터디 모집 게시글 댓글 삭제</summary>
+    <img src = "https://github.com/beyond-SW-Camp-14th-5rE5/EveryBootCamp/blob/main/%ED%8C%8C%EC%9D%BC/GIF/%EC%8A%A4%ED%84%B0%EB%94%94%20%EB%AA%A8%EC%A7%91%20%EA%B2%8C%EC%8B%9C%ED%8C%90/TEST-047_%EC%8A%A4%ED%84%B0%EB%94%94%20%EA%B2%8C%EC%8B%9C%EA%B8%80%20%EB%8C%93%EA%B8%80%20%EC%82%AD%EC%A0%9C.gif?raw=true", width="600"> </img>
+  </details>
+</details>
+
+---
+
+<details>
+<summary><b>🗓️ 일정</b></summary>
+  <details>
+    <summary> 공식 일정 조회 </summary>
+    <img src = "https://github.com/beyond-SW-Camp-14th-5rE5/EveryBootCamp/blob/main/%ED%8C%8C%EC%9D%BC/GIF/%EC%9D%BC%EC%A0%95%ED%91%9C/TEST-116_%EA%B3%B5%EC%8B%9D%20%EC%9D%BC%EC%A0%95%20%EC%A1%B0%ED%9A%8C.gif?raw=true" width="600"> </img>
+  </details>
+
+  <details>
+    <summary> 공식 일정 검색 </summary>
+    <img src = "https://github.com/beyond-SW-Camp-14th-5rE5/EveryBootCamp/blob/main/%ED%8C%8C%EC%9D%BC/GIF/%EC%9D%BC%EC%A0%95%ED%91%9C/TEST-117_%EA%B3%B5%EC%8B%9D%20%EC%9D%BC%EC%A0%95%20%EA%B2%80%EC%83%89%20.gif?raw=true" width="600"> </img>
+  </details>
+
+  <details>
+    <summary> 공식 일정 작성 </summary>
+    <img src = "https://github.com/beyond-SW-Camp-14th-5rE5/EveryBootCamp/blob/main/%ED%8C%8C%EC%9D%BC/GIF/%EC%9D%BC%EC%A0%95%ED%91%9C/TEST-118_%EA%B3%B5%EC%8B%9D%20%EC%9D%BC%EC%A0%95%20%EC%9E%91%EC%84%B1.gif?raw=true" width="600"> </img>
+  </details>
+
+  <details>
+    <summary> 공식 일정 삭제 </summary>
+    <img src = "https://github.com/beyond-SW-Camp-14th-5rE5/EveryBootCamp/blob/main/%ED%8C%8C%EC%9D%BC/GIF/%EC%9D%BC%EC%A0%95%ED%91%9C/TEST-119_%EA%B3%B5%EC%8B%9D%20%EC%9D%BC%EC%A0%95%20%EC%82%AD%EC%A0%9C.gif?raw=true" width="600"> </img>
+  </details>
+
+  <details>
+    <summary> 공식 일정 수정 </summary>
+    <img src = "https://github.com/beyond-SW-Camp-14th-5rE5/EveryBootCamp/blob/main/%ED%8C%8C%EC%9D%BC/GIF/%EC%9D%BC%EC%A0%95%ED%91%9C/TEST-120_%EA%B3%B5%EC%8B%9D%20%EC%9D%BC%EC%A0%95%20%EC%88%98%EC%A0%95%20.gif?raw=true" width="600"> </img>
+  </details>
+
+  <details>
+    <summary> 개인 일정 조회 </summary>
+    <img src = "https://github.com/beyond-SW-Camp-14th-5rE5/EveryBootCamp/blob/main/%ED%8C%8C%EC%9D%BC/GIF/%EC%9D%BC%EC%A0%95%ED%91%9C/TEST-121_%EA%B0%9C%EC%9D%B8%20%EC%9D%BC%EC%A0%95%20%EC%A1%B0%ED%9A%8C.gif?raw=true" width="600"> </img>
+  </details>
+
+  <details>
+    <summary> 개인 일정 검색 </summary>
+    <img src = "https://github.com/beyond-SW-Camp-14th-5rE5/EveryBootCamp/blob/main/%ED%8C%8C%EC%9D%BC/GIF/%EC%9D%BC%EC%A0%95%ED%91%9C/TEST-122_%EA%B0%9C%EC%9D%B8%20%EC%9D%BC%EC%A0%95%20%EA%B2%80%EC%83%89.gif?raw=true" width="600"> </img>
+  </details>
+
+  <details>
+    <summary> 개인 일정 작성 </summary>
+    <img src = "https://github.com/beyond-SW-Camp-14th-5rE5/EveryBootCamp/blob/main/%ED%8C%8C%EC%9D%BC/GIF/%EC%9D%BC%EC%A0%95%ED%91%9C/TEST-123_%EA%B0%9C%EC%9D%B8%20%EC%9D%BC%EC%A0%95%20%EC%9E%91%EC%84%B1%20.gif?raw=true" width="600"> </img>
+  </details>
+
+  <details>
+    <summary> 개인 일정 삭제 </summary>
+    <img src = "https://github.com/beyond-SW-Camp-14th-5rE5/EveryBootCamp/blob/main/%ED%8C%8C%EC%9D%BC/GIF/%EC%9D%BC%EC%A0%95%ED%91%9C/TEST-124_%EA%B0%9C%EC%9D%B8%20%EC%9D%BC%EC%A0%95%20%EC%82%AD%EC%A0%9C.gif?raw=true" width="600"> </img>
+  </details>
+
+  <details>
+    <summary> 개인 일정 수정 </summary>
+    <img src = "https://github.com/beyond-SW-Camp-14th-5rE5/EveryBootCamp/blob/main/%ED%8C%8C%EC%9D%BC/GIF/%EC%9D%BC%EC%A0%95%ED%91%9C/TEST-125_%EA%B0%9C%EC%9D%B8%20%EC%9D%BC%EC%A0%95%20%EC%88%98%EC%A0%95%20.gif?raw=true" width="600"> </img>
+  </details>
+
+  <details>
+    <summary> 멘토링 일정 조회 </summary>
+    <img src = "https://github.com/beyond-SW-Camp-14th-5rE5/EveryBootCamp/blob/main/%ED%8C%8C%EC%9D%BC/GIF/%EC%9D%BC%EC%A0%95%ED%91%9C/TEST-126_%EB%A9%98%ED%86%A0%EB%A7%81%20%EC%9D%BC%EC%A0%95%20%EC%A1%B0%ED%9A%8C.gif?raw=true" width="600"> </img>
+  </details>
+
+  <details>
+    <summary> 멘토링 일정 검색 </summary>
+    <img src = "https://github.com/beyond-SW-Camp-14th-5rE5/EveryBootCamp/blob/main/%ED%8C%8C%EC%9D%BC/GIF/%EC%9D%BC%EC%A0%95%ED%91%9C/TEST-127_%EB%A9%98%ED%86%A0%EB%A7%81%20%EC%9D%BC%EC%A0%95%20%EA%B2%80%EC%83%89.gif?raw=true" width="600"> </img>
+  </details>
+
+  <details>
+    <summary> 멘토링 일정 작성 </summary>
+    <img src = "https://github.com/beyond-SW-Camp-14th-5rE5/EveryBootCamp/blob/main/%ED%8C%8C%EC%9D%BC/GIF/%EC%9D%BC%EC%A0%95%ED%91%9C/TEST-128_%EB%A9%98%ED%86%A0%EB%A7%81%20%EC%9D%BC%EC%A0%95%20%EC%9E%91%EC%84%B1.gif?raw=true" width="600"> </img>
+  </details>
+
+  <details>
+    <summary> 멘토링 일정 삭제 </summary>
+    <img src = "https://github.com/beyond-SW-Camp-14th-5rE5/EveryBootCamp/blob/main/%ED%8C%8C%EC%9D%BC/GIF/%EC%9D%BC%EC%A0%95%ED%91%9C/TEST-129_%EB%A9%98%ED%86%A0%EB%A7%81%20%EC%9D%BC%EC%A0%95%20%EC%82%AD%EC%A0%9C.gif?raw=true" width="600"> </img>
+  </details>
+</details>
+
+---
+
 ### 🎈 TRIGGER
+<details>
+  <summary>자유 게시글 파일 테이블에 파일 추가 시 게시글에 파일 첨부 표시</summary>
+    <img src = "https://github.com/beyond-SW-Camp-14th-5rE5/EveryBootCamp/blob/main/%ED%8C%8C%EC%9D%BC/GIF/Object/trigger_basic_file.gif?raw=true", width="600"> </img>
+</details>
+
+---
+
+<details>
+  <summary>신고 5번 누적 시 블락리스트 추가</summary>
+    <img src = "https://github.com/beyond-SW-Camp-14th-5rE5/EveryBootCamp/blob/main/%ED%8C%8C%EC%9D%BC/GIF/Object/trigger_block_insert_basic.gif?raw=true", width="600"> </img>
+</details>
+
+---
 
 ### 🎈 INDEX
+  <details>
+	  <summary>게시판 인덱스</summary>
+    <img src = "https://github.com/beyond-SW-Camp-14th-5rE5/EveryBootCamp/blob/main/%ED%8C%8C%EC%9D%BC/GIF/Object/index.gif?raw=true", width="600"> </img>
+  </details>
+
+---
 
 ### 🎈 PROCEDURE
+  <details>
+	  <summary>게시글 조회 시 조회수 1 증가</summary>
+    <img src = "https://github.com/beyond-SW-Camp-14th-5rE5/EveryBootCamp/blob/main/%ED%8C%8C%EC%9D%BC/GIF/Object/procedure_view_increase_basic.gif?raw=true", width="600"> </img>
+  </details>
+
+---
 
 ### 🎈 CONSTRAINTS
+<details>
+  <summary>NOT NULL</summary>
+    <img src = "", width="600"> </img>
+</details>
 
+---
+
+<details>
+  <summary>CHECK</summary>
+    <img src = "", width="600"> </img>
+</details>
+
+---
+<details>
+  <summary>DATA TYPE</summary>
+    <img src = "", width="600"> </img>
+</details>
+
+---
 
 <br>
 
 ## 🔜 향후 확장 계획
 
 `#도서 대여 시스템 구축` `#코딩 문제 풀이 게시판` `#맛집 추천 기능` `#쪽지 시스템` `#스터디별 일정 캘린더 통합` `#스터디 공간 예약 시스템` `#게시판 내 MBTI 뱃지 표시`
+
+# 🍪 동료 평가
+### 강수지
+
+### 고윤석
+
+### 🐇 곽우석
+
+### 🐰 김석희
+
+### 김성민
+
+### 최혜민
+
+
