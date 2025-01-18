@@ -496,7 +496,7 @@ master는 server-id를 1번으로 가지고 slave는 server-id를 2번 이상부
 ## 💡 TEST CASE 시연
 ### 🎈 QUERY
 <details>
-<summary><b>🕵 회원</b></summary>
+<summary><b>회원</b></summary>
   <details>
     <summary> 회원가입 </summary>
     <img src = "https://github.com/beyond-SW-Camp-14th-5rE5/EveryBootCamp/blob/main/%ED%8C%8C%EC%9D%BC/GIF/%ED%9A%8C%EC%9B%90/TEST-001_%ED%9A%8C%EC%9B%90%EA%B0%80%EC%9E%85.gif?raw=true" width="600"> </img>
@@ -579,7 +579,7 @@ master는 server-id를 1번으로 가지고 slave는 server-id를 2번 이상부
 </details>
 
 <details>
-  <summary> <b>🗒️ 자유게시판</b></summary>
+  <summary> <b>자유게시판</b></summary>
   <details><summary> 자유 게시글 목록</summary>
     <img src = "https://github.com/beyond-SW-Camp-14th-5rE5/EveryBootCamp/blob/main/%ED%8C%8C%EC%9D%BC/GIF/%EC%9E%90%EC%9C%A0%20%EA%B2%8C%EC%8B%9C%ED%8C%90/TEST-018_%EC%9E%90%EC%9C%A0%20%EA%B2%8C%EC%8B%9C%EA%B8%80%20%EB%AA%A9%EB%A1%9D%20%EC%A1%B0%ED%9A%8C.gif?raw=true ", width="600"> </img>
   </details>
@@ -619,7 +619,7 @@ master는 server-id를 1번으로 가지고 slave는 server-id를 2번 이상부
 </details>
 
 <details>
-  <summary><b>💼 취업 정보 게시판</b></summary>
+  <summary><b>취업 정보 게시판</b></summary>
   <details><summary>취업 정보 게시글 목록 조회</summary>
     <img src = "https://github.com/beyond-SW-Camp-14th-5rE5/EveryBootCamp/blob/main/%ED%8C%8C%EC%9D%BC/GIF/%EC%B7%A8%EC%97%85%20%EC%A0%95%EB%B3%B4%20%EA%B2%8C%EC%8B%9C%ED%8C%90/TEST-048_%EC%B7%A8%EC%97%85%20%EC%A0%95%EB%B3%B4%20%EA%B2%8C%EC%8B%9C%EA%B8%80%20%EB%AA%A9%EB%A1%9D%20%EC%A1%B0%ED%9A%8C.gif?raw=true", width="600"> </img>
   </details>
@@ -665,7 +665,7 @@ master는 server-id를 1번으로 가지고 slave는 server-id를 2번 이상부
 </details>
 
 <details>
-  <summary><b>👥 멘토링</b></summary>
+  <summary><b>멘토링</b></summary>
   <details><summary> 멘토링 등록</summary>
     <img src = "https://github.com/beyond-SW-Camp-14th-5rE5/EveryBootCamp/blob/main/%ED%8C%8C%EC%9D%BC/GIF/%EB%A9%98%ED%86%A0%EB%A7%81/TEST-062_%EB%A9%98%ED%86%A0%EB%A7%81%20%EB%93%B1%EB%A1%9D.gif?raw=true", width="600"> </img>
   </details>
@@ -690,7 +690,7 @@ master는 server-id를 1번으로 가지고 slave는 server-id를 2번 이상부
  </details>
 
 <details>
-  <summary><b>📖 스터디 모집 게시판</b> </summary>
+  <summary><b>스터디 모집 게시판</b> </summary>
   <details><summary> 스터디 모집 게시글 목록 조회</summary>
     <img src = "https://github.com/beyond-SW-Camp-14th-5rE5/EveryBootCamp/blob/main/%ED%8C%8C%EC%9D%BC/GIF/%EC%8A%A4%ED%84%B0%EB%94%94%20%EB%AA%A8%EC%A7%91%20%EA%B2%8C%EC%8B%9C%ED%8C%90/TEST-032_%EC%8A%A4%ED%84%B0%EB%94%94%20%EB%AA%A8%EC%A7%91%20%EA%B2%8C%EC%8B%9C%EA%B8%80%20%EB%AA%A9%EB%A1%9D%20%EC%A1%B0%ED%9A%8C.gif?raw=true", width="600"> </img>
   </details>
@@ -739,7 +739,7 @@ master는 server-id를 1번으로 가지고 slave는 server-id를 2번 이상부
 </details>
 
 <details>
-<summary><b>🗓️ 일정</b></summary>
+<summary><b>일정</b></summary>
   <details>
     <summary> 공식 일정 조회 </summary>
     <img src = "https://github.com/beyond-SW-Camp-14th-5rE5/EveryBootCamp/blob/main/%ED%8C%8C%EC%9D%BC/GIF/%EC%9D%BC%EC%A0%95%ED%91%9C/TEST-116_%EA%B3%B5%EC%8B%9D%20%EC%9D%BC%EC%A0%95%20%EC%A1%B0%ED%9A%8C.gif?raw=true" width="600"> </img>
