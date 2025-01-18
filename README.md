@@ -838,17 +838,17 @@ master는 server-id를 1번으로 가지고 slave는 server-id를 2번 이상부
 ### 🎈 CONSTRAINTS
 <details>
   <summary><b>NOT NULL</b></summary>
-    <img src = "", width="600"> </img>
+    <img src = "https://github.com/beyond-SW-Camp-14th-5rE5/EveryBootCamp/blob/main/%ED%8C%8C%EC%9D%BC/GIF/Constraint/not_null.gif?raw=true", width="600"> </img>
 </details>
 
 <details>
   <summary><b>CHECK</b></summary>
-    <img src = "", width="600"> </img>
+    <img src = "https://github.com/beyond-SW-Camp-14th-5rE5/EveryBootCamp/blob/main/%ED%8C%8C%EC%9D%BC/GIF/Constraint/check.gif?raw=true", width="600"> </img>
 </details>
 
 <details>
   <summary><b>DATA TYPE</b></summary>
-    <img src = "", width="600"> </img>
+    <img src = "https://github.com/beyond-SW-Camp-14th-5rE5/EveryBootCamp/blob/main/%ED%8C%8C%EC%9D%BC/GIF/Constraint/data_type.gif?raw=true", width="600"> </img>
 </details>
 
 <br>
