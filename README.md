@@ -459,7 +459,7 @@ CREATE TABLE IF NOT EXISTS MENTOR_SCHEDULE (
 <br>
 
 ## 🧲 Replication
-### - Replicationd이란
+### - Replication이란
 <img src = "https://github.com/beyond-SW-Camp-14th-5rE5/EveryBootCamp/blob/main/%ED%8C%8C%EC%9D%BC/PNG/Replication/replication.png?raw=true" width = "900"> </img> <br>
 MySQL 또는 MariaDB는 Replication을 제공합니다. <br> <br>
 Replication이란 DB를 복제하는 것으로 2대 이상의 DBMS를 master와 slave(또는 다중 slave) 구조로 나누어 <b>비동기 복제 방식으로 데이터를 저장하는 것</b>을 뜻합니다. <br> <br>
