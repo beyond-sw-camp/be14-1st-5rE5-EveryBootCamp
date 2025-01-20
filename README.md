@@ -823,7 +823,7 @@ master는 server-id를 1번으로 가지고 slave는 server-id를 2번 이상부
 
 <details>
   <summary><b>신고 5번 누적 시 블락리스트 추가</b></summary>
-    <img src = "https://github.com/beyond-SW-Camp-14th-5rE5/EveryBootCamp/blob/main/%ED%8C%8C%EC%9D%BC/GIF/Object/trigger_block_insert_basic.gif?raw=true", width="600"> </img>
+    <img src = "https://github.com/beyond-SW-Camp-14th-5rE5/EveryBootCamp/blob/main/%ED%8C%8C%EC%9D%BC/GIF/%EC%8B%A0%EA%B3%A0%205%EB%B2%88%EC%8B%9C%20%EB%B8%94%EB%9D%BD%EB%A6%AC%EC%8A%A4%ED%8A%B8.gif?raw=true", width="600"> </img>
 </details>
 
 ### 🎈 INDEX
