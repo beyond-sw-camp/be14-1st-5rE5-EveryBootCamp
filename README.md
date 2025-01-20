@@ -54,14 +54,14 @@
 🔗 <a href="https://docs.google.com/spreadsheets/d/1t4HdLfTOnScKb9n-gGkM4NVxvhieuCJ2Qb8384PqUuM/edit?gid=0#gid=0"> WBS 자세히 보기 </a>
 
 <img src = "https://cdn.discordapp.com/attachments/1326093292256890966/1330104868257529856/image.png?ex=678cc430&is=678b72b0&hm=54e4ad457a93c625b3e0ab3510b75907e7823a3c2d1ba9440002e24d8095e1d5&" width = "1000"> </img> 
-<br>
+<br><br>
 
 ## 🙆‍♀️ 요구사항 명세서
 
 🔗 <a href="https://docs.google.com/spreadsheets/d/1t4HdLfTOnScKb9n-gGkM4NVxvhieuCJ2Qb8384PqUuM/edit?gid=1669757998#gid=1669757998"> 요구사항 명세 자세히 보기 </a>
 
 <img src = "https://github.com/beyond-SW-Camp-14th-5rE5/EveryBootCamp/blob/main/%ED%8C%8C%EC%9D%BC/PNG/%EC%9A%94%EA%B5%AC%EC%82%AC%ED%95%AD%EB%AA%85%EC%84%B8%EC%84%9C/%EC%9A%94%EA%B5%AC%EC%82%AC%ED%95%AD%EB%AA%85%EC%84%B8%EC%84%9C.png?raw=true" width = "900"> </img>
-<br>
+<br><br>
 
 ## 🗃️ DB 모델링
 ### 1. 개념 모델링
@@ -485,13 +485,15 @@ master는 server-id를 1번으로 가지고 slave는 server-id를 2번 이상부
     
 ### - slave에서 read-only 옵션 확인
 <img src = "https://github.com/beyond-SW-Camp-14th-5rE5/EveryBootCamp/blob/main/%ED%8C%8C%EC%9D%BC/GIF/Server/slave_read_only_%EC%98%B5%EC%85%98_%ED%99%95%EC%9D%B8.gif?raw=true" width="600"> </img> <br>
-
+<br>
 
 ## 💡 TEST CASE 정의서
 
 🔗 <a href="https://docs.google.com/spreadsheets/d/1t4HdLfTOnScKb9n-gGkM4NVxvhieuCJ2Qb8384PqUuM/edit?gid=1861502503#gid=1861502503"> 테스트케이스 정의서 자세히 보기 </a>
 
 <img src = "https://github.com/beyond-SW-Camp-14th-5rE5/EveryBootCamp/blob/main/%ED%8C%8C%EC%9D%BC/PNG/%ED%85%8C%EC%8A%A4%ED%8A%B8%EC%BC%80%EC%9D%B4%EC%8A%A4%20%EC%A0%95%EC%9D%98%EC%84%9C/%ED%85%8C%EC%8A%A4%ED%8A%B8%EC%BC%80%EC%9D%B4%EC%8A%A4%20%EC%A0%95%EC%9D%98%EC%84%9C.png?raw=true" width = "100%"> </img> <br>
+
+<br>
 
 ## 💡 TEST CASE 시연
 ### 🎈 QUERY
