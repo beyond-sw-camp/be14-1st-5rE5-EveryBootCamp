@@ -10,10 +10,11 @@
 </center>
 
 
-![MariaDB](https://img.shields.io/badge/MariaDB-003545?style=flat&logo=mariadb&logoColor=white) ![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat&logo=linux&logoColor=black) ![Ubuntu](https://img.shields.io/badge/Ubuntu-E95420?style=flat&logo=ubuntu&logoColor=white)  <img src="https://img.shields.io/badge/ERD%20cloud-%230000FF.svg?style=flat&logo=erlang&logoColor=white"> <img src="https://img.shields.io/badge/DA%23-0B6121.svg?style=flat&logo=draw.io&logoColor=white"> ![IntelliJ IDEA](https://img.shields.io/badge/IntelliJIDEA-000000.svg?style=flat&logo=intellij-idea&logoColor=white) <img src="https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=GitHub&logoColor=white"> 
+![MariaDB](https://img.shields.io/badge/MariaDB-003545?style=flat&logo=mariadb&logoColor=white) ![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat&logo=linux&logoColor=black) ![Ubuntu](https://img.shields.io/badge/Ubuntu-E95420?style=flat&logo=ubuntu&logoColor=white)  <img src="https://img.shields.io/badge/ERD%20cloud-%230000FF.svg?style=flat&logo=erlang&logoColor=white"> <img src="https://img.shields.io/badge/DA%23-0B6121.svg?style=flat&logo=draw.io&logoColor=white"> ![IntelliJ IDEA](https://img.shields.io/badge/IntelliJIDEA-000000.svg?style=flat&logo=intellij-idea&logoColor=white) <img src="https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=GitHub&logoColor=white">
+
 
 ## 👨‍💻 DEVELOPERS
-|<img src="" width="150" height = "80"> |<img src="" width="150" height = "80"> | <img src="" width="150" height = "80">|<img src="" width="150" height = "80"> | <img src="" width="150" height = "80"> | <img src="" width="150" height = "80">|
+|<img src="https://github.com/user-attachments/assets/2b17eec9-b7b7-40f5-bbad-2d6c2f916e9b" width="100" height = "100"> |<img src="https://github.com/user-attachments/assets/03c9c5d5-fc4d-41e3-a959-60f297d9081d" width="100" height = "100"> | <img src="https://github.com/user-attachments/assets/384954de-5a78-401b-adcc-a77373510239" width="100" height = "100">|<img src="https://github.com/user-attachments/assets/d3180487-814d-49f6-b9d2-075ccb7126c2" width="100" height = "100"> | <img src="https://github.com/user-attachments/assets/f5ab43fb-ac0a-44e5-b149-2545cd5bd2df" width="100" height = "100"> | <img src="https://github.com/user-attachments/assets/6ce72bff-b4f2-447c-90e8-7133a4207b4e" width="100" height = "100">|
 | :------------------------------------: | :-------------------------------------: | :-----------------------------------: | :--------------------------------------: | :-----------------------------------: | :------------------------------------------: |
 | [강수지](https://github.com/50071) | [고윤석](https://github.com/jakego1) | [곽우석](https://github.com/wooseok718) | [김석희](https://github.com/yehang218) | [김성민](https://github.com/SungMin-hub) | [최혜민](https://github.com/HMYIEN) |
 
@@ -866,9 +867,9 @@ master는 server-id를 1번으로 가지고 slave는 server-id를 2번 이상부
 
 ### 🐑 고윤석
 
-### 🐰 곽우석
+### 🐇 곽우석
 
-### 🐇 김석희
+### 🐰 김석희
 
 ### 🐮 김성민
 
