@@ -14,9 +14,10 @@
 
 
 ## 👨‍💻 DEVELOPERS
-|<img src="https://github.com/user-attachments/assets/2b17eec9-b7b7-40f5-bbad-2d6c2f916e9b" width="100" height = "100"> |<img src="https://github.com/user-attachments/assets/03c9c5d5-fc4d-41e3-a959-60f297d9081d" width="100" height = "100"> | <img src="https://github.com/user-attachments/assets/384954de-5a78-401b-adcc-a77373510239" width="100" height = "100">|<img src="https://github.com/user-attachments/assets/d3180487-814d-49f6-b9d2-075ccb7126c2" width="100" height = "100"> | <img src="https://github.com/user-attachments/assets/f5ab43fb-ac0a-44e5-b149-2545cd5bd2df" width="100" height = "100"> | <img src="https://github.com/user-attachments/assets/6ce72bff-b4f2-447c-90e8-7133a4207b4e" width="100" height = "100">|
+|<img src="https://symbl-world.akamaized.net/i/webp/55/a68f187591becc1f332435077d3888.webp" width="100" height = "100"> |<img src="https://github.com/user-attachments/assets/03c9c5d5-fc4d-41e3-a959-60f297d9081d" width="100" height = "100"> | <img src="https://github.com/user-attachments/assets/384954de-5a78-401b-adcc-a77373510239" width="100" height = "100">|<img src="https://github.com/user-attachments/assets/d3180487-814d-49f6-b9d2-075ccb7126c2" width="100" height = "100"> | <img src="https://github.com/user-attachments/assets/f5ab43fb-ac0a-44e5-b149-2545cd5bd2df" width="100" height = "100"> | <img src="https://github.com/user-attachments/assets/6ce72bff-b4f2-447c-90e8-7133a4207b4e" width="100" height = "100">|
 | :------------------------------------: | :-------------------------------------: | :-----------------------------------: | :--------------------------------------: | :-----------------------------------: | :------------------------------------------: |
 | [강수지](https://github.com/50071) | [고윤석](https://github.com/jakego1) | [곽우석](https://github.com/wooseok718) | [김석희](https://github.com/yehang218) | [김성민](https://github.com/SungMin-hub) | [최혜민](https://github.com/HMYIEN) |
+
 
 <br>
 
