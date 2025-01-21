@@ -1,3 +1,5 @@
+-- 모든 더미 데이터를 한번에 생성하는 파일
+
 -- ------------------- CARDINAL -------------------------
 INSERT INTO CARDINAL (cardinal_id)
 VALUES (0), -- 관리자 기수
