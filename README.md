@@ -61,30 +61,6 @@
 ```
 <br>
 
-<br>
-
-## 📂 Git 폴더 구조
-
-```cmd
-🗃️ EveryBootCamp
-├─ 📁DDL
-│  └─ 📜create_table.sql
-├─ 📁DML
-│  ├─ 📜 init_settings.sql
-│  └─ 📁 각 테이블명
-│      └─ 📜더미 데이터 생성 sql
-├─ 📁Object
-│  ├─ 📜procedure 관련 sql
-│  ├─ 📜index 관련 sql
-│  └─ 📜trigeer 관련 sql
-├─ 📁TESTCASE
-│  └─ 📜모든 테스트 케이스 sql
-└─ 📁파일
-    ├─ 📁GIF
-    └─ 📁PNG
-```
-<br>
-
 
 ## 📢 프로젝트 개요
 ### 1. 프로젝트 주제
